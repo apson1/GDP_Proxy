@@ -1,0 +1,677 @@
+region_id,boundary_name,boundary_parent,adm1_gid,source_region_name,parent_name,score,method,needs_review,decision
+IND2-80f6c5a627,Lakshadweep,Lakshadweep,IND.18_1,,,0,unmatched,True,reject: DOSE has no label region for this UT
+IND2-e629dd9dbd,Dadra and Nagar Haveli,Dadra and Nagar Haveli,IND.8_1,,,0,unmatched,True,reject: DOSE has no label region for this UT
+IND2-7e9e0a7bf6,Diu,Daman and Diu,IND.9_1,,,0,unmatched,True,reject: DOSE has no label region for this UT
+IND2-b6c6867e73,Daman,Daman and Diu,IND.9_1,,,0,unmatched,True,reject: DOSE has no label region for this UT
+IND2-1164d5c014,Udhampur,Jammu and Kashmir,Z01.14_1,Jammu & Kashmir,India,100.0,gid_disputed,True,"accept: GADM disputed-territory code, same admin unit as DOSE"
+IND2-145924fcac,Ramban,Jammu and Kashmir,Z01.14_1,Jammu & Kashmir,India,100.0,gid_disputed,True,"accept: GADM disputed-territory code, same admin unit as DOSE"
+IND2-21018cec7b,Anantnag,Jammu and Kashmir,Z01.14_1,Jammu & Kashmir,India,100.0,gid_disputed,True,"accept: GADM disputed-territory code, same admin unit as DOSE"
+IND2-256f8c410d,Lohit,Arunachal Pradesh,Z07.3_1,Arunachal Pradesh,India,100.0,gid_disputed,True,"accept: GADM disputed-territory code, same admin unit as DOSE"
+IND2-2da9e13bf4,Dibang Valley,Arunachal Pradesh,Z07.3_1,Arunachal Pradesh,India,100.0,gid_disputed,True,"accept: GADM disputed-territory code, same admin unit as DOSE"
+IND2-2e8b1e7d5a,Baramulla,Jammu and Kashmir,Z01.14_1,Jammu & Kashmir,India,100.0,gid_disputed,True,"accept: GADM disputed-territory code, same admin unit as DOSE"
+IND2-2efb4155d8,Kathua,Jammu and Kashmir,Z01.14_1,Jammu & Kashmir,India,100.0,gid_disputed,True,"accept: GADM disputed-territory code, same admin unit as DOSE"
+IND2-32e6d20b28,Jammu,Jammu and Kashmir,Z01.14_1,Jammu & Kashmir,India,100.0,gid_disputed,True,"accept: GADM disputed-territory code, same admin unit as DOSE"
+IND2-39089da646,Upper Siang,Arunachal Pradesh,Z07.3_1,Arunachal Pradesh,India,100.0,gid_disputed,True,"accept: GADM disputed-territory code, same admin unit as DOSE"
+IND2-39f0b1280d,Kurung Kumey,Arunachal Pradesh,Z07.3_1,Arunachal Pradesh,India,100.0,gid_disputed,True,"accept: GADM disputed-territory code, same admin unit as DOSE"
+IND2-45dd7f12bc,Kupwara,Jammu and Kashmir,Z01.14_1,Jammu & Kashmir,India,100.0,gid_disputed,True,"accept: GADM disputed-territory code, same admin unit as DOSE"
+IND2-4a3cc818b4,Pulwama,Jammu and Kashmir,Z01.14_1,Jammu & Kashmir,India,100.0,gid_disputed,True,"accept: GADM disputed-territory code, same admin unit as DOSE"
+IND2-4f77b065a5,East Siang,Arunachal Pradesh,Z07.3_1,Arunachal Pradesh,India,100.0,gid_disputed,True,"accept: GADM disputed-territory code, same admin unit as DOSE"
+IND2-51de4c0727,Kinnaur,Himachal Pradesh,Z09.13_1,Himachal Pradesh,India,100.0,gid_disputed,True,"accept: GADM disputed-territory code, same admin unit as DOSE"
+IND2-57651853ef,Anjaw,Arunachal Pradesh,Z07.3_1,Arunachal Pradesh,India,100.0,gid_disputed,True,"accept: GADM disputed-territory code, same admin unit as DOSE"
+IND2-591056dfff,Ganderbal,Jammu and Kashmir,Z01.14_1,Jammu & Kashmir,India,100.0,gid_disputed,True,"accept: GADM disputed-territory code, same admin unit as DOSE"
+IND2-5c29316151,Pithoragarh,Uttarakhand,Z05.35_1,Uttarakhand,India,100.0,gid_disputed,True,"accept: GADM disputed-territory code, same admin unit as DOSE"
+IND2-6c846bcf59,Bandipore,Jammu and Kashmir,Z01.14_1,Jammu & Kashmir,India,100.0,gid_disputed,True,"accept: GADM disputed-territory code, same admin unit as DOSE"
+IND2-7764a0465e,West Kameng,Arunachal Pradesh,Z07.3_1,Arunachal Pradesh,India,100.0,gid_disputed,True,"accept: GADM disputed-territory code, same admin unit as DOSE"
+IND2-77f4634577,Srinagar,Jammu and Kashmir,Z01.14_1,Jammu & Kashmir,India,100.0,gid_disputed,True,"accept: GADM disputed-territory code, same admin unit as DOSE"
+IND2-7f64ee0d49,Chamoli,Uttarakhand,Z05.35_1,Uttarakhand,India,100.0,gid_disputed,True,"accept: GADM disputed-territory code, same admin unit as DOSE"
+IND2-808aba24e8,Shupiyan,Jammu and Kashmir,Z01.14_1,Jammu & Kashmir,India,100.0,gid_disputed,True,"accept: GADM disputed-territory code, same admin unit as DOSE"
+IND2-8d2985bb5f,Upper Subansiri,Arunachal Pradesh,Z07.3_1,Arunachal Pradesh,India,100.0,gid_disputed,True,"accept: GADM disputed-territory code, same admin unit as DOSE"
+IND2-8ea5684a2f,Badgam,Jammu and Kashmir,Z01.14_1,Jammu & Kashmir,India,100.0,gid_disputed,True,"accept: GADM disputed-territory code, same admin unit as DOSE"
+IND2-93952cdd1e,Samba,Jammu and Kashmir,Z01.14_1,Jammu & Kashmir,India,100.0,gid_disputed,True,"accept: GADM disputed-territory code, same admin unit as DOSE"
+IND2-a94e3b37cb,Kulgam,Jammu and Kashmir,Z01.14_1,Jammu & Kashmir,India,100.0,gid_disputed,True,"accept: GADM disputed-territory code, same admin unit as DOSE"
+IND2-b39754259c,Lahul & Spiti,Himachal Pradesh,Z04.13_1,Himachal Pradesh,India,100.0,gid_disputed,True,"accept: GADM disputed-territory code, same admin unit as DOSE"
+IND2-b3d7edfe88,West Siang,Arunachal Pradesh,Z07.3_1,Arunachal Pradesh,India,100.0,gid_disputed,True,"accept: GADM disputed-territory code, same admin unit as DOSE"
+IND2-b70a408a57,Tawang,Arunachal Pradesh,Z07.3_1,Arunachal Pradesh,India,100.0,gid_disputed,True,"accept: GADM disputed-territory code, same admin unit as DOSE"
+IND2-ba88f294a1,East Kameng,Arunachal Pradesh,Z07.3_1,Arunachal Pradesh,India,100.0,gid_disputed,True,"accept: GADM disputed-territory code, same admin unit as DOSE"
+IND2-c021608844,Rajouri,Jammu and Kashmir,Z01.14_1,Jammu & Kashmir,India,100.0,gid_disputed,True,"accept: GADM disputed-territory code, same admin unit as DOSE"
+IND2-c69f091747,Lower Dibang Valley,Arunachal Pradesh,Z07.3_1,Arunachal Pradesh,India,100.0,gid_disputed,True,"accept: GADM disputed-territory code, same admin unit as DOSE"
+IND2-cb1fe2deaf,Kargil,Jammu and Kashmir,Z01.14_1,Jammu & Kashmir,India,100.0,gid_disputed,True,"accept: GADM disputed-territory code, same admin unit as DOSE"
+IND2-cd28b1d217,Lower Subansiri,Arunachal Pradesh,Z07.3_1,Arunachal Pradesh,India,100.0,gid_disputed,True,"accept: GADM disputed-territory code, same admin unit as DOSE"
+IND2-d910ed35c3,Papum Pare,Arunachal Pradesh,Z07.3_1,Arunachal Pradesh,India,100.0,gid_disputed,True,"accept: GADM disputed-territory code, same admin unit as DOSE"
+IND2-df9cc8f8da,Uttarkashi,Uttarakhand,Z09.35_1,Uttarakhand,India,100.0,gid_disputed,True,"accept: GADM disputed-territory code, same admin unit as DOSE"
+IND2-e37637168c,Reasi,Jammu and Kashmir,Z01.14_1,Jammu & Kashmir,India,100.0,gid_disputed,True,"accept: GADM disputed-territory code, same admin unit as DOSE"
+IND2-e7154b2569,Kishtwar,Jammu and Kashmir,Z01.14_1,Jammu & Kashmir,India,100.0,gid_disputed,True,"accept: GADM disputed-territory code, same admin unit as DOSE"
+IND2-ea06971aad,Poonch,Jammu and Kashmir,Z01.14_1,Jammu & Kashmir,India,100.0,gid_disputed,True,"accept: GADM disputed-territory code, same admin unit as DOSE"
+IND2-ea342c2e2c,Leh (Ladakh),Jammu and Kashmir,Z01.14_1,Jammu & Kashmir,India,100.0,gid_disputed,True,"accept: GADM disputed-territory code, same admin unit as DOSE"
+IND2-f87e39a39c,Kinnaur,Himachal Pradesh,Z04.13_1,Himachal Pradesh,India,100.0,gid_disputed,True,"accept: GADM disputed-territory code, same admin unit as DOSE"
+IND2-fd95c420a6,Doda,Jammu and Kashmir,Z01.14_1,Jammu & Kashmir,India,100.0,gid_disputed,True,"accept: GADM disputed-territory code, same admin unit as DOSE"
+IND2-0074671079,Panchkula,Haryana,IND.12_1,Haryana,India,100.0,gid,False,accept: exact GADM GID_1 join
+IND2-008c0d9a40,Chitrakoot,Uttar Pradesh,IND.34_1,Uttar Pradesh,India,100.0,gid,False,accept: exact GADM GID_1 join
+IND2-00a5c583c7,Ramgarh,Jharkhand,IND.15_1,Jharkhand,India,100.0,gid,False,accept: exact GADM GID_1 join
+IND2-00cb7186be,Kendrapara,Odisha,IND.26_1,Odisha,India,100.0,gid,False,accept: exact GADM GID_1 join
+IND2-013d2c4635,East Garo Hills,Meghalaya,IND.22_1,Meghalaya,India,100.0,gid,False,accept: exact GADM GID_1 join
+IND2-0146b458ff,Dehradun,Uttarakhand,IND.35_1,Uttarakhand,India,100.0,gid,False,accept: exact GADM GID_1 join
+IND2-026b6c1e4f,Chandrapur,Maharashtra,IND.20_1,Maharashtra,India,100.0,gid,False,accept: exact GADM GID_1 join
+IND2-02b2619169,Sambalpur,Odisha,IND.26_1,Odisha,India,100.0,gid,False,accept: exact GADM GID_1 join
+IND2-031d27a108,Ri Bhoi,Meghalaya,IND.22_1,Meghalaya,India,100.0,gid,False,accept: exact GADM GID_1 join
+IND2-032a8056d1,South West Khasi Hills,Meghalaya,IND.22_1,Meghalaya,India,100.0,gid,False,accept: exact GADM GID_1 join
+IND2-035006b372,Yadgir,Karnataka,IND.16_1,Karnataka,India,100.0,gid,False,accept: exact GADM GID_1 join
+IND2-036add7c8a,Kottayam,Kerala,IND.17_1,Kerala,India,100.0,gid,False,accept: exact GADM GID_1 join
+IND2-03cfeeb46f,Hamirpur,Himachal Pradesh,IND.13_1,Himachal Pradesh,India,100.0,gid,False,accept: exact GADM GID_1 join
+IND2-040294d5b2,Sirsa,Haryana,IND.12_1,Haryana,India,100.0,gid,False,accept: exact GADM GID_1 join
+IND2-04308cece4,Wokha,Nagaland,IND.24_1,Nagaland,India,100.0,gid,False,accept: exact GADM GID_1 join
+IND2-04e8900c6a,Karur,Tamil Nadu,IND.31_1,Tamil Nadu,India,100.0,gid,False,accept: exact GADM GID_1 join
+IND2-055b35296d,Jhajjar,Haryana,IND.12_1,Haryana,India,100.0,gid,False,accept: exact GADM GID_1 join
+IND2-05a095e8e8,Bijapur,Karnataka,IND.16_1,Karnataka,India,100.0,gid,False,accept: exact GADM GID_1 join
+IND2-06016d98f8,Solan,Himachal Pradesh,IND.13_1,Himachal Pradesh,India,100.0,gid,False,accept: exact GADM GID_1 join
+IND2-060cff3d58,Hyderabad,Telangana,IND.32_1,Telangana,India,100.0,gid,False,accept: exact GADM GID_1 join
+IND2-072c15efa3,Balangir,Odisha,IND.26_1,Odisha,India,100.0,gid,False,accept: exact GADM GID_1 join
+IND2-07baa42d67,Anuppur,Madhya Pradesh,IND.19_1,Madhya Pradesh,India,100.0,gid,False,accept: exact GADM GID_1 join
+IND2-07d54a018c,Vaishali,Bihar,IND.5_1,Bihar,India,100.0,gid,False,accept: exact GADM GID_1 join
+IND2-07f80d2943,Sikar,Rajasthan,IND.29_1,Rajasthan,India,100.0,gid,False,accept: exact GADM GID_1 join
+IND2-09c66a4375,Nayagarh,Odisha,IND.26_1,Odisha,India,100.0,gid,False,accept: exact GADM GID_1 join
+IND2-0a18ed5706,Kachchh,Gujarat,IND.11_1,Gujarat,India,100.0,gid,False,accept: exact GADM GID_1 join
+IND2-0a3c8bdad5,Botad,Gujarat,IND.11_1,Gujarat,India,100.0,gid,False,accept: exact GADM GID_1 join
+IND2-0aa9d19bf3,Ratlam,Madhya Pradesh,IND.19_1,Madhya Pradesh,India,100.0,gid,False,accept: exact GADM GID_1 join
+IND2-0ba00c1e28,Bankura,West Bengal,IND.36_1,West Bengal,India,100.0,gid,False,accept: exact GADM GID_1 join
+IND2-0bb3ea5fd9,Amritsar,Punjab,IND.28_1,Punjab,India,100.0,gid,False,accept: exact GADM GID_1 join
+IND2-0c2acfad0a,Krishnagiri,Tamil Nadu,IND.31_1,Tamil Nadu,India,100.0,gid,False,accept: exact GADM GID_1 join
+IND2-0cbcc33626,Kokrajhar,Assam,IND.4_1,Assam,India,100.0,gid,False,accept: exact GADM GID_1 join
+IND2-0cc9bc50a7,Karimnagar,Telangana,IND.32_1,Telangana,India,100.0,gid,False,accept: exact GADM GID_1 join
+IND2-0d607751b6,Bellary,Karnataka,IND.16_1,Karnataka,India,100.0,gid,False,accept: exact GADM GID_1 join
+IND2-0da2b848cc,Balaghat,Madhya Pradesh,IND.19_1,Madhya Pradesh,India,100.0,gid,False,accept: exact GADM GID_1 join
+IND2-0dc4e7ea1d,Narmada,Gujarat,IND.11_1,Gujarat,India,100.0,gid,False,accept: exact GADM GID_1 join
+IND2-0df47c805e,Champawat,Uttarakhand,IND.35_1,Uttarakhand,India,100.0,gid,False,accept: exact GADM GID_1 join
+IND2-0f1b0db438,Yamunanagar,Haryana,IND.12_1,Haryana,India,100.0,gid,False,accept: exact GADM GID_1 join
+IND2-0ffe651712,Kiphire,Nagaland,IND.24_1,Nagaland,India,100.0,gid,False,accept: exact GADM GID_1 join
+IND2-1070c08b06,Fatehpur,Uttar Pradesh,IND.34_1,Uttar Pradesh,India,100.0,gid,False,accept: exact GADM GID_1 join
+IND2-10ae66b59b,Bageshwar,Uttarakhand,IND.35_1,Uttarakhand,India,100.0,gid,False,accept: exact GADM GID_1 join
+IND2-10b0782858,Hazaribagh,Jharkhand,IND.15_1,Jharkhand,India,100.0,gid,False,accept: exact GADM GID_1 join
+IND2-11ba23beea,Kanpur Dehat,Uttar Pradesh,IND.34_1,Uttar Pradesh,India,100.0,gid,False,accept: exact GADM GID_1 join
+IND2-122b96c12d,North Tripura,Tripura,IND.33_1,Tripura,India,100.0,gid,False,accept: exact GADM GID_1 join
+IND2-12a53a9488,Madhubani,Bihar,IND.5_1,Bihar,India,100.0,gid,False,accept: exact GADM GID_1 join
+IND2-12dee89972,Mandsaur,Madhya Pradesh,IND.19_1,Madhya Pradesh,India,100.0,gid,False,accept: exact GADM GID_1 join
+IND2-12e31c6234,Rae Bareli,Uttar Pradesh,IND.34_1,Uttar Pradesh,India,100.0,gid,False,accept: exact GADM GID_1 join
+IND2-1383142bb4,Junagadh,Gujarat,IND.11_1,Gujarat,India,100.0,gid,False,accept: exact GADM GID_1 join
+IND2-138dd05bf0,Senapati,Manipur,IND.21_1,Manipur,India,100.0,gid,False,accept: exact GADM GID_1 join
+IND2-1391b59d92,Gurdaspur,Punjab,IND.28_1,Punjab,India,100.0,gid,False,accept: exact GADM GID_1 join
+IND2-13b7c4ac95,Kapurthala,Punjab,IND.28_1,Punjab,India,100.0,gid,False,accept: exact GADM GID_1 join
+IND2-13f4d10f28,Kamrup Metropolitan,Assam,IND.4_1,Assam,India,100.0,gid,False,accept: exact GADM GID_1 join
+IND2-145e9ba493,Uttara Kannada,Karnataka,IND.16_1,Karnataka,India,100.0,gid,False,accept: exact GADM GID_1 join
+IND2-145f0aefe7,Sant Kabir Nagar,Uttar Pradesh,IND.34_1,Uttar Pradesh,India,100.0,gid,False,accept: exact GADM GID_1 join
+IND2-14dd3f9e4f,Madurai,Tamil Nadu,IND.31_1,Tamil Nadu,India,100.0,gid,False,accept: exact GADM GID_1 join
+IND2-15ca8a6954,Ambedkar Nagar,Uttar Pradesh,IND.34_1,Uttar Pradesh,India,100.0,gid,False,accept: exact GADM GID_1 join
+IND2-1679f86c5c,East Nimar,Madhya Pradesh,IND.19_1,Madhya Pradesh,India,100.0,gid,False,accept: exact GADM GID_1 join
+IND2-1679fe4772,Darbhanga,Bihar,IND.5_1,Bihar,India,100.0,gid,False,accept: exact GADM GID_1 join
+IND2-16bc6a7aad,Maharajganj,Uttar Pradesh,IND.34_1,Uttar Pradesh,India,100.0,gid,False,accept: exact GADM GID_1 join
+IND2-1710129d86,Kullu,Himachal Pradesh,IND.13_1,Himachal Pradesh,India,100.0,gid,False,accept: exact GADM GID_1 join
+IND2-17ba4c71bc,Lohardaga,Jharkhand,IND.15_1,Jharkhand,India,100.0,gid,False,accept: exact GADM GID_1 join
+IND2-17ec227eb2,Nagappattinam,Tamil Nadu,IND.31_1,Tamil Nadu,India,100.0,gid,False,accept: exact GADM GID_1 join
+IND2-1815abe18c,Coimbatore,Tamil Nadu,IND.31_1,Tamil Nadu,India,100.0,gid,False,accept: exact GADM GID_1 join
+IND2-1868630f86,Jabalpur,Madhya Pradesh,IND.19_1,Madhya Pradesh,India,100.0,gid,False,accept: exact GADM GID_1 join
+IND2-18dbb012c7,Surendranagar,Gujarat,IND.11_1,Gujarat,India,100.0,gid,False,accept: exact GADM GID_1 join
+IND2-196f5b8893,Unokoti,Tripura,IND.33_1,Tripura,India,100.0,gid,False,accept: exact GADM GID_1 join
+IND2-1af515d814,Kamrup,Assam,IND.4_1,Assam,India,100.0,gid,False,accept: exact GADM GID_1 join
+IND2-1b16dd9f4d,Anjaw,Arunachal Pradesh,IND.3_1,Arunachal Pradesh,India,100.0,gid,False,accept: exact GADM GID_1 join
+IND2-1b47af4e32,Hathras,Uttar Pradesh,IND.34_1,Uttar Pradesh,India,100.0,gid,False,accept: exact GADM GID_1 join
+IND2-1b5e822ed6,Alipurduar,West Bengal,IND.36_1,West Bengal,India,100.0,gid,False,accept: exact GADM GID_1 join
+IND2-1bff933cf9,Harda,Madhya Pradesh,IND.19_1,Madhya Pradesh,India,100.0,gid,False,accept: exact GADM GID_1 join
+IND2-1c97935f99,Solapur,Maharashtra,IND.20_1,Maharashtra,India,100.0,gid,False,accept: exact GADM GID_1 join
+IND2-1cad65bd6c,Bijapur,Chhattisgarh,IND.7_1,Chattisgarh,India,100.0,gid,False,accept: exact GADM GID_1 join
+IND2-1cbfab2252,Ganganagar,Rajasthan,IND.29_1,Rajasthan,India,100.0,gid,False,accept: exact GADM GID_1 join
+IND2-1cca3fc5b1,Rewa,Madhya Pradesh,IND.19_1,Madhya Pradesh,India,100.0,gid,False,accept: exact GADM GID_1 join
+IND2-1d3f267fcc,Gonda,Uttar Pradesh,IND.34_1,Uttar Pradesh,India,100.0,gid,False,accept: exact GADM GID_1 join
+IND2-1db25abb1b,Shahid Bhagat Singh Nagar,Punjab,IND.28_1,Punjab,India,100.0,gid,False,accept: exact GADM GID_1 join
+IND2-1db96d1e94,Thiruvananthapuram,Kerala,IND.17_1,Kerala,India,100.0,gid,False,accept: exact GADM GID_1 join
+IND2-1f112aa8a0,Damoh,Madhya Pradesh,IND.19_1,Madhya Pradesh,India,100.0,gid,False,accept: exact GADM GID_1 join
+IND2-1f2438f58f,Sonitpur,Assam,IND.4_1,Assam,India,100.0,gid,False,accept: exact GADM GID_1 join
+IND2-1f5283d894,Dhar,Madhya Pradesh,IND.19_1,Madhya Pradesh,India,100.0,gid,False,accept: exact GADM GID_1 join
+IND2-1f797a1788,Chhindwara,Madhya Pradesh,IND.19_1,Madhya Pradesh,India,100.0,gid,False,accept: exact GADM GID_1 join
+IND2-1fab2cd380,Rudraprayag,Uttarakhand,IND.35_1,Uttarakhand,India,100.0,gid,False,accept: exact GADM GID_1 join
+IND2-202bbad3bb,Bongaigaon,Assam,IND.4_1,Assam,India,100.0,gid,False,accept: exact GADM GID_1 join
+IND2-21261db551,Yanam,Puducherry,IND.27_1,Puducherry,India,100.0,gid,False,accept: exact GADM GID_1 join
+IND2-217118ea43,Mokokchung,Nagaland,IND.24_1,Nagaland,India,100.0,gid,False,accept: exact GADM GID_1 join
+IND2-22483bf5be,Palghar,Maharashtra,IND.20_1,Maharashtra,India,100.0,gid,False,accept: exact GADM GID_1 join
+IND2-226a997023,Sahibganj,Jharkhand,IND.15_1,Jharkhand,India,100.0,gid,False,accept: exact GADM GID_1 join
+IND2-22af582cf8,Shahdol,Madhya Pradesh,IND.19_1,Madhya Pradesh,India,100.0,gid,False,accept: exact GADM GID_1 join
+IND2-22fd78d8ea,Mahbubnagar,Telangana,IND.32_1,Telangana,India,100.0,gid,False,accept: exact GADM GID_1 join
+IND2-2315eb6dee,Malkangiri,Odisha,IND.26_1,Odisha,India,100.0,gid,False,accept: exact GADM GID_1 join
+IND2-2331b81cf5,Murshidabad,West Bengal,IND.36_1,West Bengal,India,100.0,gid,False,accept: exact GADM GID_1 join
+IND2-2403819b4e,Hapur,Uttar Pradesh,IND.34_1,Uttar Pradesh,India,100.0,gid,False,accept: exact GADM GID_1 join
+IND2-245ad1653a,Bathinda,Punjab,IND.28_1,Punjab,India,100.0,gid,False,accept: exact GADM GID_1 join
+IND2-24a455e71f,Udham Singh Nagar,Uttarakhand,IND.35_1,Uttarakhand,India,100.0,gid,False,accept: exact GADM GID_1 join
+IND2-24ae2f2b4d,Jalandhar,Punjab,IND.28_1,Punjab,India,100.0,gid,False,accept: exact GADM GID_1 join
+IND2-24fce59b0c,Amreli,Gujarat,IND.11_1,Gujarat,India,100.0,gid,False,accept: exact GADM GID_1 join
+IND2-25cdae6320,Valsad,Gujarat,IND.11_1,Gujarat,India,100.0,gid,False,accept: exact GADM GID_1 join
+IND2-261c7fdbc3,Bauda,Odisha,IND.26_1,Odisha,India,100.0,gid,False,accept: exact GADM GID_1 join
+IND2-26e28b87df,Kasganj,Uttar Pradesh,IND.34_1,Uttar Pradesh,India,100.0,gid,False,accept: exact GADM GID_1 join
+IND2-26ef931150,Moradabad,Uttar Pradesh,IND.34_1,Uttar Pradesh,India,100.0,gid,False,accept: exact GADM GID_1 join
+IND2-27304d20e2,Jajapur,Odisha,IND.26_1,Odisha,India,100.0,gid,False,accept: exact GADM GID_1 join
+IND2-2740412aea,West Nimar,Madhya Pradesh,IND.19_1,Madhya Pradesh,India,100.0,gid,False,accept: exact GADM GID_1 join
+IND2-2748a8d703,Erode,Tamil Nadu,IND.31_1,Tamil Nadu,India,100.0,gid,False,accept: exact GADM GID_1 join
+IND2-284c0ebd3d,Karbi Anglong,Assam,IND.4_1,Assam,India,100.0,gid,False,accept: exact GADM GID_1 join
+IND2-28e6fa3e3e,Thiruvallur,Tamil Nadu,IND.31_1,Tamil Nadu,India,100.0,gid,False,accept: exact GADM GID_1 join
+IND2-29198f2ff9,Ludhiana,Punjab,IND.28_1,Punjab,India,100.0,gid,False,accept: exact GADM GID_1 join
+IND2-2a0df23c72,Ghazipur,Uttar Pradesh,IND.34_1,Uttar Pradesh,India,100.0,gid,False,accept: exact GADM GID_1 join
+IND2-2a3779706e,Garhwa,Jharkhand,IND.15_1,Jharkhand,India,100.0,gid,False,accept: exact GADM GID_1 join
+IND2-2aca7994b0,North Goa,Goa,IND.10_1,Goa,India,100.0,gid,False,accept: exact GADM GID_1 join
+IND2-2afdbd6602,Devbhumi Dwarka,Gujarat,IND.11_1,Gujarat,India,100.0,gid,False,accept: exact GADM GID_1 join
+IND2-2bfc145959,Jhunjhunun,Rajasthan,IND.29_1,Rajasthan,India,100.0,gid,False,accept: exact GADM GID_1 join
+IND2-2c2faf9c0e,Chhota Udaipur,Gujarat,IND.11_1,Gujarat,India,100.0,gid,False,accept: exact GADM GID_1 join
+IND2-2c82f9299c,Pithoragarh,Uttarakhand,IND.35_1,Uttarakhand,India,100.0,gid,False,accept: exact GADM GID_1 join
+IND2-2d14870589,Mandi,Himachal Pradesh,IND.13_1,Himachal Pradesh,India,100.0,gid,False,accept: exact GADM GID_1 join
+IND2-2d32dfdb63,Nagaur,Rajasthan,IND.29_1,Rajasthan,India,100.0,gid,False,accept: exact GADM GID_1 join
+IND2-2dce0b28be,Vizianagaram,Andhra Pradesh,IND.2_1,Andhra Pradesh,India,100.0,gid,False,accept: exact GADM GID_1 join
+IND2-2de1233267,Gaya,Bihar,IND.5_1,Bihar,India,100.0,gid,False,accept: exact GADM GID_1 join
+IND2-2e509fecb7,Barmer,Rajasthan,IND.29_1,Rajasthan,India,100.0,gid,False,accept: exact GADM GID_1 join
+IND2-2ebc4e3df0,Cuttack,Odisha,IND.26_1,Odisha,India,100.0,gid,False,accept: exact GADM GID_1 join
+IND2-2eeadd89e0,Giridih,Jharkhand,IND.15_1,Jharkhand,India,100.0,gid,False,accept: exact GADM GID_1 join
+IND2-2f8bc0c9f5,Ballia,Uttar Pradesh,IND.34_1,Uttar Pradesh,India,100.0,gid,False,accept: exact GADM GID_1 join
+IND2-2fd2284c6e,South Goa,Goa,IND.10_1,Goa,India,100.0,gid,False,accept: exact GADM GID_1 join
+IND2-2fe838f623,Dewas,Madhya Pradesh,IND.19_1,Madhya Pradesh,India,100.0,gid,False,accept: exact GADM GID_1 join
+IND2-2fe9b2c364,Nadia,West Bengal,IND.36_1,West Bengal,India,100.0,gid,False,accept: exact GADM GID_1 join
+IND2-3069813ec8,Katni,Madhya Pradesh,IND.19_1,Madhya Pradesh,India,100.0,gid,False,accept: exact GADM GID_1 join
+IND2-309dd34bbb,Baloda Bazar,Chhattisgarh,IND.7_1,Chattisgarh,India,100.0,gid,False,accept: exact GADM GID_1 join
+IND2-31420c482e,Bhiwani,Haryana,IND.12_1,Haryana,India,100.0,gid,False,accept: exact GADM GID_1 join
+IND2-31f148d314,Shravasti,Uttar Pradesh,IND.34_1,Uttar Pradesh,India,100.0,gid,False,accept: exact GADM GID_1 join
+IND2-3215c41cc4,Sundargarh,Odisha,IND.26_1,Odisha,India,100.0,gid,False,accept: exact GADM GID_1 join
+IND2-321785edc8,Jashpur,Chhattisgarh,IND.7_1,Chattisgarh,India,100.0,gid,False,accept: exact GADM GID_1 join
+IND2-3267804fb6,Banka,Bihar,IND.5_1,Bihar,India,100.0,gid,False,accept: exact GADM GID_1 join
+IND2-327713e413,Baksa,Assam,IND.4_1,Assam,India,100.0,gid,False,accept: exact GADM GID_1 join
+IND2-327dc17dab,Saiha,Mizoram,IND.23_1,Mizoram,India,100.0,gid,False,accept: exact GADM GID_1 join
+IND2-336caaa92e,South Garo Hills,Meghalaya,IND.22_1,Meghalaya,India,100.0,gid,False,accept: exact GADM GID_1 join
+IND2-33b5398153,Shamli,Uttar Pradesh,IND.34_1,Uttar Pradesh,India,100.0,gid,False,accept: exact GADM GID_1 join
+IND2-33de6be03c,Serchhip,Mizoram,IND.23_1,Mizoram,India,100.0,gid,False,accept: exact GADM GID_1 join
+IND2-3482c185a3,Hailakandi,Assam,IND.4_1,Assam,India,100.0,gid,False,accept: exact GADM GID_1 join
+IND2-34e9bbc23e,Parbhani,Maharashtra,IND.20_1,Maharashtra,India,100.0,gid,False,accept: exact GADM GID_1 join
+IND2-3540a363af,Mirzapur,Uttar Pradesh,IND.34_1,Uttar Pradesh,India,100.0,gid,False,accept: exact GADM GID_1 join
+IND2-356aca5132,Godda,Jharkhand,IND.15_1,Jharkhand,India,100.0,gid,False,accept: exact GADM GID_1 join
+IND2-35e97b7671,Una,Himachal Pradesh,IND.13_1,Himachal Pradesh,India,100.0,gid,False,accept: exact GADM GID_1 join
+IND2-35f95f7b12,Mainpuri,Uttar Pradesh,IND.34_1,Uttar Pradesh,India,100.0,gid,False,accept: exact GADM GID_1 join
+IND2-364fbe73dd,Pali,Rajasthan,IND.29_1,Rajasthan,India,100.0,gid,False,accept: exact GADM GID_1 join
+IND2-36661072b0,Sagar,Madhya Pradesh,IND.19_1,Madhya Pradesh,India,100.0,gid,False,accept: exact GADM GID_1 join
+IND2-367cc94a45,Kaimur,Bihar,IND.5_1,Bihar,India,100.0,gid,False,accept: exact GADM GID_1 join
+IND2-36ea1fe7bf,Dhenkanal,Odisha,IND.26_1,Odisha,India,100.0,gid,False,accept: exact GADM GID_1 join
+IND2-3775866415,Jamtara,Jharkhand,IND.15_1,Jharkhand,India,100.0,gid,False,accept: exact GADM GID_1 join
+IND2-3852ede0fb,Raipur,Chhattisgarh,IND.7_1,Chattisgarh,India,100.0,gid,False,accept: exact GADM GID_1 join
+IND2-38d943566e,Ernakulam,Kerala,IND.17_1,Kerala,India,100.0,gid,False,accept: exact GADM GID_1 join
+IND2-38e6dda0b0,Purba Champaran,Bihar,IND.5_1,Bihar,India,100.0,gid,False,accept: exact GADM GID_1 join
+IND2-3930ef2532,Nellore,Andhra Pradesh,IND.2_1,Andhra Pradesh,India,100.0,gid,False,accept: exact GADM GID_1 join
+IND2-3a5343370c,Haora,West Bengal,IND.36_1,West Bengal,India,100.0,gid,False,accept: exact GADM GID_1 join
+IND2-3ba019b489,Supaul,Bihar,IND.5_1,Bihar,India,100.0,gid,False,accept: exact GADM GID_1 join
+IND2-3c01fd4be0,Koraput,Odisha,IND.26_1,Odisha,India,100.0,gid,False,accept: exact GADM GID_1 join
+IND2-3c3b65f98d,Chamba,Himachal Pradesh,IND.13_1,Himachal Pradesh,India,100.0,gid,False,accept: exact GADM GID_1 join
+IND2-3d141d047e,Tirap,Arunachal Pradesh,IND.3_1,Arunachal Pradesh,India,100.0,gid,False,accept: exact GADM GID_1 join
+IND2-3d2edfa838,Akola,Maharashtra,IND.20_1,Maharashtra,India,100.0,gid,False,accept: exact GADM GID_1 join
+IND2-3d40b49149,Ukhrul,Manipur,IND.21_1,Manipur,India,100.0,gid,False,accept: exact GADM GID_1 join
+IND2-3dfa1fd0fa,Shimoga,Karnataka,IND.16_1,Karnataka,India,100.0,gid,False,accept: exact GADM GID_1 join
+IND2-3e0850eb23,Latur,Maharashtra,IND.20_1,Maharashtra,India,100.0,gid,False,accept: exact GADM GID_1 join
+IND2-3efd6142a8,Ranga Reddy,Telangana,IND.32_1,Telangana,India,100.0,gid,False,accept: exact GADM GID_1 join
+IND2-3f244125b3,Pratapgarh,Rajasthan,IND.29_1,Rajasthan,India,100.0,gid,False,accept: exact GADM GID_1 join
+IND2-3f8c0d3efc,Sitapur,Uttar Pradesh,IND.34_1,Uttar Pradesh,India,100.0,gid,False,accept: exact GADM GID_1 join
+IND2-3f917db7fc,Panna,Madhya Pradesh,IND.19_1,Madhya Pradesh,India,100.0,gid,False,accept: exact GADM GID_1 join
+IND2-400353ddaa,Mumbai Suburban,Maharashtra,IND.20_1,Maharashtra,India,100.0,gid,False,accept: exact GADM GID_1 join
+IND2-4018269d50,Prakasam,Andhra Pradesh,IND.2_1,Andhra Pradesh,India,100.0,gid,False,accept: exact GADM GID_1 join
+IND2-40248eaf8e,Vellore,Tamil Nadu,IND.31_1,Tamil Nadu,India,100.0,gid,False,accept: exact GADM GID_1 join
+IND2-41a0822175,Chandauli,Uttar Pradesh,IND.34_1,Uttar Pradesh,India,100.0,gid,False,accept: exact GADM GID_1 join
+IND2-41b20fc285,Deoghar,Jharkhand,IND.15_1,Jharkhand,India,100.0,gid,False,accept: exact GADM GID_1 join
+IND2-425c8c5df8,Lawangtlai,Mizoram,IND.23_1,Mizoram,India,100.0,gid,False,accept: exact GADM GID_1 join
+IND2-429caa8340,Navsari,Gujarat,IND.11_1,Gujarat,India,100.0,gid,False,accept: exact GADM GID_1 join
+IND2-42e9f9d3d1,Dindori,Madhya Pradesh,IND.19_1,Madhya Pradesh,India,100.0,gid,False,accept: exact GADM GID_1 join
+IND2-4313f95160,Lunglei,Mizoram,IND.23_1,Mizoram,India,100.0,gid,False,accept: exact GADM GID_1 join
+IND2-4348b4213b,Kolar,Karnataka,IND.16_1,Karnataka,India,100.0,gid,False,accept: exact GADM GID_1 join
+IND2-437f3aa27f,Alwar,Rajasthan,IND.29_1,Rajasthan,India,100.0,gid,False,accept: exact GADM GID_1 join
+IND2-4484c3c634,Raisen,Madhya Pradesh,IND.19_1,Madhya Pradesh,India,100.0,gid,False,accept: exact GADM GID_1 join
+IND2-44867f48e3,Banswara,Rajasthan,IND.29_1,Rajasthan,India,100.0,gid,False,accept: exact GADM GID_1 join
+IND2-44a322b557,Namsai,Arunachal Pradesh,IND.3_1,Arunachal Pradesh,India,100.0,gid,False,accept: exact GADM GID_1 join
+IND2-46730a9f6e,Mahesana,Gujarat,IND.11_1,Gujarat,India,100.0,gid,False,accept: exact GADM GID_1 join
+IND2-4692642819,Nanded,Maharashtra,IND.20_1,Maharashtra,India,100.0,gid,False,accept: exact GADM GID_1 join
+IND2-46fc51718e,Kollam,Kerala,IND.17_1,Kerala,India,100.0,gid,False,accept: exact GADM GID_1 join
+IND2-4710ca8b76,Sidhi,Madhya Pradesh,IND.19_1,Madhya Pradesh,India,100.0,gid,False,accept: exact GADM GID_1 join
+IND2-476f02ab6a,Dhamtari,Chhattisgarh,IND.7_1,Chattisgarh,India,100.0,gid,False,accept: exact GADM GID_1 join
+IND2-4786e52249,Gautam Buddha Nagar,Uttar Pradesh,IND.34_1,Uttar Pradesh,India,100.0,gid,False,accept: exact GADM GID_1 join
+IND2-4806d018bd,Panipat,Haryana,IND.12_1,Haryana,India,100.0,gid,False,accept: exact GADM GID_1 join
+IND2-495f1690b5,Tirunelveli,Tamil Nadu,IND.31_1,Tamil Nadu,India,100.0,gid,False,accept: exact GADM GID_1 join
+IND2-49a1583339,Firozpur,Punjab,IND.28_1,Punjab,India,100.0,gid,False,accept: exact GADM GID_1 join
+IND2-4a27d5b9e2,Jind,Haryana,IND.12_1,Haryana,India,100.0,gid,False,accept: exact GADM GID_1 join
+IND2-4a8033e8bc,Sultanpur,Uttar Pradesh,IND.34_1,Uttar Pradesh,India,100.0,gid,False,accept: exact GADM GID_1 join
+IND2-4aa34135be,Dantewada,Chhattisgarh,IND.7_1,Chattisgarh,India,100.0,gid,False,accept: exact GADM GID_1 join
+IND2-4ab4752af9,Amravati,Maharashtra,IND.20_1,Maharashtra,India,100.0,gid,False,accept: exact GADM GID_1 join
+IND2-4ba9e0de99,Jorhat,Assam,IND.4_1,Assam,India,100.0,gid,False,accept: exact GADM GID_1 join
+IND2-4ccf21c687,Dharwad,Karnataka,IND.16_1,Karnataka,India,100.0,gid,False,accept: exact GADM GID_1 join
+IND2-4dcfb67cc8,Zunheboto,Nagaland,IND.24_1,Nagaland,India,100.0,gid,False,accept: exact GADM GID_1 join
+IND2-4dd64859a1,Purnia,Bihar,IND.5_1,Bihar,India,100.0,gid,False,accept: exact GADM GID_1 join
+IND2-4e42c6ebbc,West Godavari,Andhra Pradesh,IND.2_1,Andhra Pradesh,India,100.0,gid,False,accept: exact GADM GID_1 join
+IND2-4eeb3b3394,Latehar,Jharkhand,IND.15_1,Jharkhand,India,100.0,gid,False,accept: exact GADM GID_1 join
+IND2-4ef49cb0e2,Dhaulpur,Rajasthan,IND.29_1,Rajasthan,India,100.0,gid,False,accept: exact GADM GID_1 join
+IND2-4ef92c11c1,Aravalli,Gujarat,IND.11_1,Gujarat,India,100.0,gid,False,accept: exact GADM GID_1 join
+IND2-4f730fb78f,Muzaffarpur,Bihar,IND.5_1,Bihar,India,100.0,gid,False,accept: exact GADM GID_1 join
+IND2-4fa71fb06c,Longding,Arunachal Pradesh,IND.3_1,Arunachal Pradesh,India,100.0,gid,False,accept: exact GADM GID_1 join
+IND2-4fdd112b07,Jalor,Rajasthan,IND.29_1,Rajasthan,India,100.0,gid,False,accept: exact GADM GID_1 join
+IND2-507efa2eda,Lalitpur,Uttar Pradesh,IND.34_1,Uttar Pradesh,India,100.0,gid,False,accept: exact GADM GID_1 join
+IND2-50c3e04688,Bhind,Madhya Pradesh,IND.19_1,Madhya Pradesh,India,100.0,gid,False,accept: exact GADM GID_1 join
+IND2-51573e019b,Gandhinagar,Gujarat,IND.11_1,Gujarat,India,100.0,gid,False,accept: exact GADM GID_1 join
+IND2-51d2844b45,Sipahijala,Tripura,IND.33_1,Tripura,India,100.0,gid,False,accept: exact GADM GID_1 join
+IND2-5251d9c437,Barnala,Punjab,IND.28_1,Punjab,India,100.0,gid,False,accept: exact GADM GID_1 join
+IND2-525e4f494e,Chamrajnagar,Karnataka,IND.16_1,Karnataka,India,100.0,gid,False,accept: exact GADM GID_1 join
+IND2-53174ac4a1,North Garo Hills,Meghalaya,IND.22_1,Meghalaya,India,100.0,gid,False,accept: exact GADM GID_1 join
+IND2-5326e1c30d,Jamui,Bihar,IND.5_1,Bihar,India,100.0,gid,False,accept: exact GADM GID_1 join
+IND2-53b89028d4,Barpeta,Assam,IND.4_1,Assam,India,100.0,gid,False,accept: exact GADM GID_1 join
+IND2-54f9294ed1,Bundi,Rajasthan,IND.29_1,Rajasthan,India,100.0,gid,False,accept: exact GADM GID_1 join
+IND2-55302b6f37,Debagarh,Odisha,IND.26_1,Odisha,India,100.0,gid,False,accept: exact GADM GID_1 join
+IND2-5597c7dd58,Mungeli,Chhattisgarh,IND.7_1,Chattisgarh,India,100.0,gid,False,accept: exact GADM GID_1 join
+IND2-565eacdcb5,Adilabad,Telangana,IND.32_1,Telangana,India,100.0,gid,False,accept: exact GADM GID_1 join
+IND2-567ce1b3ec,Gorakhpur,Uttar Pradesh,IND.34_1,Uttar Pradesh,India,100.0,gid,False,accept: exact GADM GID_1 join
+IND2-569e94ee92,Khagaria,Bihar,IND.5_1,Bihar,India,100.0,gid,False,accept: exact GADM GID_1 join
+IND2-56d6b5797e,Srikakulam,Andhra Pradesh,IND.2_1,Andhra Pradesh,India,100.0,gid,False,accept: exact GADM GID_1 join
+IND2-571cd7d07d,Nainital,Uttarakhand,IND.35_1,Uttarakhand,India,100.0,gid,False,accept: exact GADM GID_1 join
+IND2-578ffcfd18,Nicobar Islands,Andaman and Nicobar,IND.1_1,Andaman Nicobar,India,100.0,gid,False,accept: exact GADM GID_1 join
+IND2-57f417b0f3,East Khasi Hills,Meghalaya,IND.22_1,Meghalaya,India,100.0,gid,False,accept: exact GADM GID_1 join
+IND2-586cd34480,Siddharth Nagar,Uttar Pradesh,IND.34_1,Uttar Pradesh,India,100.0,gid,False,accept: exact GADM GID_1 join
+IND2-586f19b421,Deoria,Uttar Pradesh,IND.34_1,Uttar Pradesh,India,100.0,gid,False,accept: exact GADM GID_1 join
+IND2-588c2522a3,Nabarangapur,Odisha,IND.26_1,Odisha,India,100.0,gid,False,accept: exact GADM GID_1 join
+IND2-58946efd24,Datia,Madhya Pradesh,IND.19_1,Madhya Pradesh,India,100.0,gid,False,accept: exact GADM GID_1 join
+IND2-58c11efcef,Kannur,Kerala,IND.17_1,Kerala,India,100.0,gid,False,accept: exact GADM GID_1 join
+IND2-58c6ee5eee,South West Garo Hills,Meghalaya,IND.22_1,Meghalaya,India,100.0,gid,False,accept: exact GADM GID_1 join
+IND2-592b3b7880,Bijnor,Uttar Pradesh,IND.34_1,Uttar Pradesh,India,100.0,gid,False,accept: exact GADM GID_1 join
+IND2-596082e4a9,Mahoba,Uttar Pradesh,IND.34_1,Uttar Pradesh,India,100.0,gid,False,accept: exact GADM GID_1 join
+IND2-5960d7d19e,Mau,Uttar Pradesh,IND.34_1,Uttar Pradesh,India,100.0,gid,False,accept: exact GADM GID_1 join
+IND2-5a0319cf21,Bargarh,Odisha,IND.26_1,Odisha,India,100.0,gid,False,accept: exact GADM GID_1 join
+IND2-5a16a46bee,Jalna,Maharashtra,IND.20_1,Maharashtra,India,100.0,gid,False,accept: exact GADM GID_1 join
+IND2-5a5e091a88,Bhopal,Madhya Pradesh,IND.19_1,Madhya Pradesh,India,100.0,gid,False,accept: exact GADM GID_1 join
+IND2-5d5ea0c2f4,Aurangabad,Maharashtra,IND.20_1,Maharashtra,India,100.0,gid,False,accept: exact GADM GID_1 join
+IND2-5d6acd48ec,Golaghat,Assam,IND.4_1,Assam,India,100.0,gid,False,accept: exact GADM GID_1 join
+IND2-5db9f91f98,Pudukkottai,Tamil Nadu,IND.31_1,Tamil Nadu,India,100.0,gid,False,accept: exact GADM GID_1 join
+IND2-5e62fd5b46,Sangrur,Punjab,IND.28_1,Punjab,India,100.0,gid,False,accept: exact GADM GID_1 join
+IND2-5e652ddebd,Mumbai City,Maharashtra,IND.20_1,Maharashtra,India,100.0,gid,False,accept: exact GADM GID_1 join
+IND2-5f01f677b4,Champhai,Mizoram,IND.23_1,Mizoram,India,100.0,gid,False,accept: exact GADM GID_1 join
+IND2-5f0899857f,Shimla,Himachal Pradesh,IND.13_1,Himachal Pradesh,India,100.0,gid,False,accept: exact GADM GID_1 join
+IND2-5f3e235f39,Barddhaman,West Bengal,IND.36_1,West Bengal,India,100.0,gid,False,accept: exact GADM GID_1 join
+IND2-5fb3d7a09b,Rajgarh,Madhya Pradesh,IND.19_1,Madhya Pradesh,India,100.0,gid,False,accept: exact GADM GID_1 join
+IND2-6039e6e3b5,Karaikal,Puducherry,IND.27_1,Puducherry,India,100.0,gid,False,accept: exact GADM GID_1 join
+IND2-6039ff9f5a,Surat,Gujarat,IND.11_1,Gujarat,India,100.0,gid,False,accept: exact GADM GID_1 join
+IND2-60a211450e,Pathankot,Punjab,IND.28_1,Punjab,India,100.0,gid,False,accept: exact GADM GID_1 join
+IND2-60d904ad9d,Gomati,Tripura,IND.33_1,Tripura,India,100.0,gid,False,accept: exact GADM GID_1 join
+IND2-60e0f64285,Wardha,Maharashtra,IND.20_1,Maharashtra,India,100.0,gid,False,accept: exact GADM GID_1 join
+IND2-60ecb968c2,Sheikhpura,Bihar,IND.5_1,Bihar,India,100.0,gid,False,accept: exact GADM GID_1 join
+IND2-617e5071fe,Kurnool,Andhra Pradesh,IND.2_1,Andhra Pradesh,India,100.0,gid,False,accept: exact GADM GID_1 join
+IND2-625a64bbbf,Shahjahanpur,Uttar Pradesh,IND.34_1,Uttar Pradesh,India,100.0,gid,False,accept: exact GADM GID_1 join
+IND2-63a6e285a5,Khowai,Tripura,IND.33_1,Tripura,India,100.0,gid,False,accept: exact GADM GID_1 join
+IND2-65078ad79f,Kanpur Nagar,Uttar Pradesh,IND.34_1,Uttar Pradesh,India,100.0,gid,False,accept: exact GADM GID_1 join
+IND2-651203791c,Bid,Maharashtra,IND.20_1,Maharashtra,India,100.0,gid,False,accept: exact GADM GID_1 join
+IND2-656a390e74,Lohit,Arunachal Pradesh,IND.3_1,Arunachal Pradesh,India,100.0,gid,False,accept: exact GADM GID_1 join
+IND2-656e054276,Purbi Singhbhum,Jharkhand,IND.15_1,Jharkhand,India,100.0,gid,False,accept: exact GADM GID_1 join
+IND2-663239edbb,Guntur,Andhra Pradesh,IND.2_1,Andhra Pradesh,India,100.0,gid,False,accept: exact GADM GID_1 join
+IND2-665f8ca48c,Jodhpur,Rajasthan,IND.29_1,Rajasthan,India,100.0,gid,False,accept: exact GADM GID_1 join
+IND2-670ecd3dc2,Kurukshetra,Haryana,IND.12_1,Haryana,India,100.0,gid,False,accept: exact GADM GID_1 join
+IND2-67328a56ed,Changlang,Arunachal Pradesh,IND.3_1,Arunachal Pradesh,India,100.0,gid,False,accept: exact GADM GID_1 join
+IND2-678a1b97f5,Durg,Chhattisgarh,IND.7_1,Chattisgarh,India,100.0,gid,False,accept: exact GADM GID_1 join
+IND2-68eaaaf463,Longleng,Nagaland,IND.24_1,Nagaland,India,100.0,gid,False,accept: exact GADM GID_1 join
+IND2-69392d5cd8,Chittaurgarh,Rajasthan,IND.29_1,Rajasthan,India,100.0,gid,False,accept: exact GADM GID_1 join
+IND2-6943543d0b,Ghaziabad,Uttar Pradesh,IND.34_1,Uttar Pradesh,India,100.0,gid,False,accept: exact GADM GID_1 join
+IND2-69741193fe,Hamirpur,Uttar Pradesh,IND.34_1,Uttar Pradesh,India,100.0,gid,False,accept: exact GADM GID_1 join
+IND2-6a72640c75,Koppal,Karnataka,IND.16_1,Karnataka,India,100.0,gid,False,accept: exact GADM GID_1 join
+IND2-6ad53da20a,Dakshina Kannada,Karnataka,IND.16_1,Karnataka,India,100.0,gid,False,accept: exact GADM GID_1 join
+IND2-6b307c9e4e,Patan,Gujarat,IND.11_1,Gujarat,India,100.0,gid,False,accept: exact GADM GID_1 join
+IND2-6b50002948,Nalbari,Assam,IND.4_1,Assam,India,100.0,gid,False,accept: exact GADM GID_1 join
+IND2-6bd314fccd,Muktsar,Punjab,IND.28_1,Punjab,India,100.0,gid,False,accept: exact GADM GID_1 join
+IND2-6be381d293,Madhepura,Bihar,IND.5_1,Bihar,India,100.0,gid,False,accept: exact GADM GID_1 join
+IND2-6c82971997,Chikmagalur,Karnataka,IND.16_1,Karnataka,India,100.0,gid,False,accept: exact GADM GID_1 join
+IND2-6cbe19ce48,Satna,Madhya Pradesh,IND.19_1,Madhya Pradesh,India,100.0,gid,False,accept: exact GADM GID_1 join
+IND2-6cc3b077ae,Karimganj,Assam,IND.4_1,Assam,India,100.0,gid,False,accept: exact GADM GID_1 join
+IND2-6cdd6da967,Araria,Bihar,IND.5_1,Bihar,India,100.0,gid,False,accept: exact GADM GID_1 join
+IND2-6d08da3f6d,Morena,Madhya Pradesh,IND.19_1,Madhya Pradesh,India,100.0,gid,False,accept: exact GADM GID_1 join
+IND2-6d3d7250c1,Sawai Madhopur,Rajasthan,IND.29_1,Rajasthan,India,100.0,gid,False,accept: exact GADM GID_1 join
+IND2-6d40f03826,Udaipur,Rajasthan,IND.29_1,Rajasthan,India,100.0,gid,False,accept: exact GADM GID_1 join
+IND2-6dae428d75,Anand,Gujarat,IND.11_1,Gujarat,India,100.0,gid,False,accept: exact GADM GID_1 join
+IND2-6ddb082c28,Jaipur,Rajasthan,IND.29_1,Rajasthan,India,100.0,gid,False,accept: exact GADM GID_1 join
+IND2-6df87b096d,Namakkal,Tamil Nadu,IND.31_1,Tamil Nadu,India,100.0,gid,False,accept: exact GADM GID_1 join
+IND2-6e38873279,Jagatsinghapur,Odisha,IND.26_1,Odisha,India,100.0,gid,False,accept: exact GADM GID_1 join
+IND2-6ec3d5d31c,Birbhum,West Bengal,IND.36_1,West Bengal,India,100.0,gid,False,accept: exact GADM GID_1 join
+IND2-6ed5af4ea3,Gir Somnath,Gujarat,IND.11_1,Gujarat,India,100.0,gid,False,accept: exact GADM GID_1 join
+IND2-6ee266aa2d,Sambhal,Uttar Pradesh,IND.34_1,Uttar Pradesh,India,100.0,gid,False,accept: exact GADM GID_1 join
+IND2-6f1d1a79fb,Purba Medinipur,West Bengal,IND.36_1,West Bengal,India,100.0,gid,False,accept: exact GADM GID_1 join
+IND2-6f555f36fa,Etawah,Uttar Pradesh,IND.34_1,Uttar Pradesh,India,100.0,gid,False,accept: exact GADM GID_1 join
+IND2-6fff64428d,Jhalawar,Rajasthan,IND.29_1,Rajasthan,India,100.0,gid,False,accept: exact GADM GID_1 join
+IND2-7004f03b51,Sangli,Maharashtra,IND.20_1,Maharashtra,India,100.0,gid,False,accept: exact GADM GID_1 join
+IND2-706f247092,Pakur,Jharkhand,IND.15_1,Jharkhand,India,100.0,gid,False,accept: exact GADM GID_1 join
+IND2-70f8d22b6e,Jamnagar,Gujarat,IND.11_1,Gujarat,India,100.0,gid,False,accept: exact GADM GID_1 join
+IND2-7135836608,Warangal,Telangana,IND.32_1,Telangana,India,100.0,gid,False,accept: exact GADM GID_1 join
+IND2-71462140c7,Tarn Taran,Punjab,IND.28_1,Punjab,India,100.0,gid,False,accept: exact GADM GID_1 join
+IND2-71a95b8544,Virudunagar,Tamil Nadu,IND.31_1,Tamil Nadu,India,100.0,gid,False,accept: exact GADM GID_1 join
+IND2-7317a36734,Idukki,Kerala,IND.17_1,Kerala,India,100.0,gid,False,accept: exact GADM GID_1 join
+IND2-731f20ecfd,Puri,Odisha,IND.26_1,Odisha,India,100.0,gid,False,accept: exact GADM GID_1 join
+IND2-7331b88588,Pashchim Champaran,Bihar,IND.5_1,Bihar,India,100.0,gid,False,accept: exact GADM GID_1 join
+IND2-7374395168,Bishnupur,Manipur,IND.21_1,Manipur,India,100.0,gid,False,accept: exact GADM GID_1 join
+IND2-737ccc5a06,Chikballapura,Karnataka,IND.16_1,Karnataka,India,100.0,gid,False,accept: exact GADM GID_1 join
+IND2-738fd5352b,Pashchim Medinipur,West Bengal,IND.36_1,West Bengal,India,100.0,gid,False,accept: exact GADM GID_1 join
+IND2-73b716b231,Thoothukkudi,Tamil Nadu,IND.31_1,Tamil Nadu,India,100.0,gid,False,accept: exact GADM GID_1 join
+IND2-741970df5a,Agra,Uttar Pradesh,IND.34_1,Uttar Pradesh,India,100.0,gid,False,accept: exact GADM GID_1 join
+IND2-74c79ea5fe,Bhadrak,Odisha,IND.26_1,Odisha,India,100.0,gid,False,accept: exact GADM GID_1 join
+IND2-74e653d99f,Bulandshahr,Uttar Pradesh,IND.34_1,Uttar Pradesh,India,100.0,gid,False,accept: exact GADM GID_1 join
+IND2-74eb80189b,Bidar,Karnataka,IND.16_1,Karnataka,India,100.0,gid,False,accept: exact GADM GID_1 join
+IND2-751e013363,Kinnaur,Himachal Pradesh,IND.13_1,Himachal Pradesh,India,100.0,gid,False,accept: exact GADM GID_1 join
+IND2-75972198fe,Rewari,Haryana,IND.12_1,Haryana,India,100.0,gid,False,accept: exact GADM GID_1 join
+IND2-76d2a2dfc8,Gwalior,Madhya Pradesh,IND.19_1,Madhya Pradesh,India,100.0,gid,False,accept: exact GADM GID_1 join
+IND2-771a7d24f7,Darjiling,West Bengal,IND.36_1,West Bengal,India,100.0,gid,False,accept: exact GADM GID_1 join
+IND2-77200f06d7,Sivasagar,Assam,IND.4_1,Assam,India,100.0,gid,False,accept: exact GADM GID_1 join
+IND2-77e623219f,Ujjain,Madhya Pradesh,IND.19_1,Madhya Pradesh,India,100.0,gid,False,accept: exact GADM GID_1 join
+IND2-78217948ff,Simdega,Jharkhand,IND.15_1,Jharkhand,India,100.0,gid,False,accept: exact GADM GID_1 join
+IND2-78a12b46cd,Malappuram,Kerala,IND.17_1,Kerala,India,100.0,gid,False,accept: exact GADM GID_1 join
+IND2-79258c5f8d,Jehanabad,Bihar,IND.5_1,Bihar,India,100.0,gid,False,accept: exact GADM GID_1 join
+IND2-7a0110991c,Pune,Maharashtra,IND.20_1,Maharashtra,India,100.0,gid,False,accept: exact GADM GID_1 join
+IND2-7b162cf03e,Porbandar,Gujarat,IND.11_1,Gujarat,India,100.0,gid,False,accept: exact GADM GID_1 join
+IND2-7b3ed4d42e,Ahmadabad,Gujarat,IND.11_1,Gujarat,India,100.0,gid,False,accept: exact GADM GID_1 join
+IND2-7b7d10df14,Mewat,Haryana,IND.12_1,Haryana,India,100.0,gid,False,accept: exact GADM GID_1 join
+IND2-7c31977056,Ashoknagar,Madhya Pradesh,IND.19_1,Madhya Pradesh,India,100.0,gid,False,accept: exact GADM GID_1 join
+IND2-7c874aabae,Sivaganga,Tamil Nadu,IND.31_1,Tamil Nadu,India,100.0,gid,False,accept: exact GADM GID_1 join
+IND2-7d7bbc32de,Goalpara,Assam,IND.4_1,Assam,India,100.0,gid,False,accept: exact GADM GID_1 join
+IND2-7dda16b063,Perambalur,Tamil Nadu,IND.31_1,Tamil Nadu,India,100.0,gid,False,accept: exact GADM GID_1 join
+IND2-7e09f35f0a,Dahod,Gujarat,IND.11_1,Gujarat,India,100.0,gid,False,accept: exact GADM GID_1 join
+IND2-7e326ea468,Bhagalpur,Bihar,IND.5_1,Bihar,India,100.0,gid,False,accept: exact GADM GID_1 join
+IND2-7f146e76d3,Saharanpur,Uttar Pradesh,IND.34_1,Uttar Pradesh,India,100.0,gid,False,accept: exact GADM GID_1 join
+IND2-7f2f66af17,Tumkur,Karnataka,IND.16_1,Karnataka,India,100.0,gid,False,accept: exact GADM GID_1 join
+IND2-7f59fb4a9b,Dausa,Rajasthan,IND.29_1,Rajasthan,India,100.0,gid,False,accept: exact GADM GID_1 join
+IND2-819782a0b5,Gariaband,Chhattisgarh,IND.7_1,Chattisgarh,India,100.0,gid,False,accept: exact GADM GID_1 join
+IND2-8230ef55cc,Faizabad,Uttar Pradesh,IND.34_1,Uttar Pradesh,India,100.0,gid,False,accept: exact GADM GID_1 join
+IND2-824429aecb,Chhatarpur,Madhya Pradesh,IND.19_1,Madhya Pradesh,India,100.0,gid,False,accept: exact GADM GID_1 join
+IND2-8290810ff7,Kozhikode,Kerala,IND.17_1,Kerala,India,100.0,gid,False,accept: exact GADM GID_1 join
+IND2-82b5027d2b,Dhanbad,Jharkhand,IND.15_1,Jharkhand,India,100.0,gid,False,accept: exact GADM GID_1 join
+IND2-83bc3eae38,Seoni,Madhya Pradesh,IND.19_1,Madhya Pradesh,India,100.0,gid,False,accept: exact GADM GID_1 join
+IND2-83fe9fc337,Churu,Rajasthan,IND.29_1,Rajasthan,India,100.0,gid,False,accept: exact GADM GID_1 join
+IND2-845ab05a66,Saraikela-kharsawan,Jharkhand,IND.15_1,Jharkhand,India,100.0,gid,False,accept: exact GADM GID_1 join
+IND2-851ac7a496,Palwal,Haryana,IND.12_1,Haryana,India,100.0,gid,False,accept: exact GADM GID_1 join
+IND2-852d61a2db,Puducherry,Puducherry,IND.27_1,Puducherry,India,100.0,gid,False,accept: exact GADM GID_1 join
+IND2-8546c05f39,Tuensang,Nagaland,IND.24_1,Nagaland,India,100.0,gid,False,accept: exact GADM GID_1 join
+IND2-86ef3bf1ea,Sukma,Chhattisgarh,IND.7_1,Chattisgarh,India,100.0,gid,False,accept: exact GADM GID_1 join
+IND2-872d669d75,Ambala,Haryana,IND.12_1,Haryana,India,100.0,gid,False,accept: exact GADM GID_1 join
+IND2-8776515865,Rupnagar,Punjab,IND.28_1,Punjab,India,100.0,gid,False,accept: exact GADM GID_1 join
+IND2-87c24382da,Ranchi,Jharkhand,IND.15_1,Jharkhand,India,100.0,gid,False,accept: exact GADM GID_1 join
+IND2-881c407f46,Mayurbhanj,Odisha,IND.26_1,Odisha,India,100.0,gid,False,accept: exact GADM GID_1 join
+IND2-882aa92a6e,Shivpuri,Madhya Pradesh,IND.19_1,Madhya Pradesh,India,100.0,gid,False,accept: exact GADM GID_1 join
+IND2-889e0aba17,Jalpaiguri,West Bengal,IND.36_1,West Bengal,India,100.0,gid,False,accept: exact GADM GID_1 join
+IND2-88ae050740,Hingoli,Maharashtra,IND.20_1,Maharashtra,India,100.0,gid,False,accept: exact GADM GID_1 join
+IND2-88becb47c4,Bahraich,Uttar Pradesh,IND.34_1,Uttar Pradesh,India,100.0,gid,False,accept: exact GADM GID_1 join
+IND2-8999627d09,Dibrugarh,Assam,IND.4_1,Assam,India,100.0,gid,False,accept: exact GADM GID_1 join
+IND2-89cef32b6a,Katihar,Bihar,IND.5_1,Bihar,India,100.0,gid,False,accept: exact GADM GID_1 join
+IND2-89fd71541a,Kolkata,West Bengal,IND.36_1,West Bengal,India,100.0,gid,False,accept: exact GADM GID_1 join
+IND2-8ac626d4fa,Nashik,Maharashtra,IND.20_1,Maharashtra,India,100.0,gid,False,accept: exact GADM GID_1 join
+IND2-8ce88f8d9a,Gadag,Karnataka,IND.16_1,Karnataka,India,100.0,gid,False,accept: exact GADM GID_1 join
+IND2-8d1fd28071,Lahul & Spiti,Himachal Pradesh,IND.13_1,Himachal Pradesh,India,100.0,gid,False,accept: exact GADM GID_1 join
+IND2-8d4d3b5a14,Udupi,Karnataka,IND.16_1,Karnataka,India,100.0,gid,False,accept: exact GADM GID_1 join
+IND2-8d9dbd66cb,Rajsamand,Rajasthan,IND.29_1,Rajasthan,India,100.0,gid,False,accept: exact GADM GID_1 join
+IND2-8de22b8dfd,West Tripura,Tripura,IND.33_1,Tripura,India,100.0,gid,False,accept: exact GADM GID_1 join
+IND2-8dff4a9f2b,Bareilly,Uttar Pradesh,IND.34_1,Uttar Pradesh,India,100.0,gid,False,accept: exact GADM GID_1 join
+IND2-8e25c0ce7a,Cuddalore,Tamil Nadu,IND.31_1,Tamil Nadu,India,100.0,gid,False,accept: exact GADM GID_1 join
+IND2-8f4cf09b1a,West,NCT of Delhi,IND.25_1,Delhi,India,100.0,gid,False,accept: exact GADM GID_1 join
+IND2-8f74981219,Davanagere,Karnataka,IND.16_1,Karnataka,India,100.0,gid,False,accept: exact GADM GID_1 join
+IND2-8fa6ef569f,Jharsuguda,Odisha,IND.26_1,Odisha,India,100.0,gid,False,accept: exact GADM GID_1 join
+IND2-90c049d9ba,Bharatpur,Rajasthan,IND.29_1,Rajasthan,India,100.0,gid,False,accept: exact GADM GID_1 join
+IND2-90d8c58b50,Ramanathapuram,Tamil Nadu,IND.31_1,Tamil Nadu,India,100.0,gid,False,accept: exact GADM GID_1 join
+IND2-912d0ad684,Fatehgarh Sahib,Punjab,IND.28_1,Punjab,India,100.0,gid,False,accept: exact GADM GID_1 join
+IND2-915cfe7209,Karnal,Haryana,IND.12_1,Haryana,India,100.0,gid,False,accept: exact GADM GID_1 join
+IND2-9183ab44a5,Hisar,Haryana,IND.12_1,Haryana,India,100.0,gid,False,accept: exact GADM GID_1 join
+IND2-91ac800208,Mahe,Puducherry,IND.27_1,Puducherry,India,100.0,gid,False,accept: exact GADM GID_1 join
+IND2-92d2892fe4,Narayanpur,Chhattisgarh,IND.7_1,Chattisgarh,India,100.0,gid,False,accept: exact GADM GID_1 join
+IND2-92e385a75c,Alappuzha,Kerala,IND.17_1,Kerala,India,100.0,gid,False,accept: exact GADM GID_1 join
+IND2-938cb71a9a,Tiruvannamalai,Tamil Nadu,IND.31_1,Tamil Nadu,India,100.0,gid,False,accept: exact GADM GID_1 join
+IND2-93991913fb,Faridabad,Haryana,IND.12_1,Haryana,India,100.0,gid,False,accept: exact GADM GID_1 join
+IND2-94225743ae,Gumla,Jharkhand,IND.15_1,Jharkhand,India,100.0,gid,False,accept: exact GADM GID_1 join
+IND2-942cffd9df,Chatra,Jharkhand,IND.15_1,Jharkhand,India,100.0,gid,False,accept: exact GADM GID_1 join
+IND2-945c4a99f9,Bastar,Chhattisgarh,IND.7_1,Chattisgarh,India,100.0,gid,False,accept: exact GADM GID_1 join
+IND2-94dfdea981,Barabanki,Uttar Pradesh,IND.34_1,Uttar Pradesh,India,100.0,gid,False,accept: exact GADM GID_1 join
+IND2-953ae29e0b,Pashchimi Singhbhum,Jharkhand,IND.15_1,Jharkhand,India,100.0,gid,False,accept: exact GADM GID_1 join
+IND2-957f5dcf7b,Bangalore Rural,Karnataka,IND.16_1,Karnataka,India,100.0,gid,False,accept: exact GADM GID_1 join
+IND2-95a636091d,West Sikkim,Sikkim,IND.30_1,Sikkim,India,100.0,gid,False,accept: exact GADM GID_1 join
+IND2-96272a3fde,Lakhimpur,Assam,IND.4_1,Assam,India,100.0,gid,False,accept: exact GADM GID_1 join
+IND2-9633d981a0,Narsimhapur,Madhya Pradesh,IND.19_1,Madhya Pradesh,India,100.0,gid,False,accept: exact GADM GID_1 join
+IND2-9634b5cccf,Barwani,Madhya Pradesh,IND.19_1,Madhya Pradesh,India,100.0,gid,False,accept: exact GADM GID_1 join
+IND2-9641d96038,Alirajpur,Madhya Pradesh,IND.19_1,Madhya Pradesh,India,100.0,gid,False,accept: exact GADM GID_1 join
+IND2-96456ae977,Tamenglong,Manipur,IND.21_1,Manipur,India,100.0,gid,False,accept: exact GADM GID_1 join
+IND2-967b3a9a40,Hoshangabad,Madhya Pradesh,IND.19_1,Madhya Pradesh,India,100.0,gid,False,accept: exact GADM GID_1 join
+IND2-967f1295b6,West Khasi Hills,Meghalaya,IND.22_1,Meghalaya,India,100.0,gid,False,accept: exact GADM GID_1 join
+IND2-96da3e0c9f,Fazilka,Punjab,IND.28_1,Punjab,India,100.0,gid,False,accept: exact GADM GID_1 join
+IND2-9745019271,Karauli,Rajasthan,IND.29_1,Rajasthan,India,100.0,gid,False,accept: exact GADM GID_1 join
+IND2-984bad032c,Buxar,Bihar,IND.5_1,Bihar,India,100.0,gid,False,accept: exact GADM GID_1 join
+IND2-98932baf7a,Mamit,Mizoram,IND.23_1,Mizoram,India,100.0,gid,False,accept: exact GADM GID_1 join
+IND2-99eb2b5983,Puruliya,West Bengal,IND.36_1,West Bengal,India,100.0,gid,False,accept: exact GADM GID_1 join
+IND2-9a5912724d,Cachar,Assam,IND.4_1,Assam,India,100.0,gid,False,accept: exact GADM GID_1 join
+IND2-9d7c98d36a,Osmanabad,Maharashtra,IND.20_1,Maharashtra,India,100.0,gid,False,accept: exact GADM GID_1 join
+IND2-9f4f2165df,Dhule,Maharashtra,IND.20_1,Maharashtra,India,100.0,gid,False,accept: exact GADM GID_1 join
+IND2-9fb85f8a17,Samastipur,Bihar,IND.5_1,Bihar,India,100.0,gid,False,accept: exact GADM GID_1 join
+IND2-a0403c5659,Thrissur,Kerala,IND.17_1,Kerala,India,100.0,gid,False,accept: exact GADM GID_1 join
+IND2-a049b00407,Burhanpur,Madhya Pradesh,IND.19_1,Madhya Pradesh,India,100.0,gid,False,accept: exact GADM GID_1 join
+IND2-a08fa149c4,Patiala,Punjab,IND.28_1,Punjab,India,100.0,gid,False,accept: exact GADM GID_1 join
+IND2-a0cb7b377e,Kangra,Himachal Pradesh,IND.13_1,Himachal Pradesh,India,100.0,gid,False,accept: exact GADM GID_1 join
+IND2-a102295f36,Kendujhar,Odisha,IND.26_1,Odisha,India,100.0,gid,False,accept: exact GADM GID_1 join
+IND2-a1d0a328c9,Agar Malwa,Madhya Pradesh,IND.19_1,Madhya Pradesh,India,100.0,gid,False,accept: exact GADM GID_1 join
+IND2-a25cce47a6,Fatehabad,Haryana,IND.12_1,Haryana,India,100.0,gid,False,accept: exact GADM GID_1 join
+IND2-a2764bbe97,Nuapada,Odisha,IND.26_1,Odisha,India,100.0,gid,False,accept: exact GADM GID_1 join
+IND2-a3017e731b,The Dangs,Gujarat,IND.11_1,Gujarat,India,100.0,gid,False,accept: exact GADM GID_1 join
+IND2-a32e59dace,Kolasib,Mizoram,IND.23_1,Mizoram,India,100.0,gid,False,accept: exact GADM GID_1 join
+IND2-a3b0a8e840,Khunti,Jharkhand,IND.15_1,Jharkhand,India,100.0,gid,False,accept: exact GADM GID_1 join
+IND2-a4737c231d,Dima Hasao,Assam,IND.4_1,Assam,India,100.0,gid,False,accept: exact GADM GID_1 join
+IND2-a4dc2a4144,Nandurbar,Maharashtra,IND.20_1,Maharashtra,India,100.0,gid,False,accept: exact GADM GID_1 join
+IND2-a597e78ce3,Wayanad,Kerala,IND.17_1,Kerala,India,100.0,gid,False,accept: exact GADM GID_1 join
+IND2-a5f805efd0,Raichur,Karnataka,IND.16_1,Karnataka,India,100.0,gid,False,accept: exact GADM GID_1 join
+IND2-a632ad7812,Y.S.R.,Andhra Pradesh,IND.2_1,Andhra Pradesh,India,100.0,gid,False,accept: exact GADM GID_1 join
+IND2-a76f118295,Moga,Punjab,IND.28_1,Punjab,India,100.0,gid,False,accept: exact GADM GID_1 join
+IND2-a79f792f05,Dhalai,Tripura,IND.33_1,Tripura,India,100.0,gid,False,accept: exact GADM GID_1 join
+IND2-a79f83cd20,Vidisha,Madhya Pradesh,IND.19_1,Madhya Pradesh,India,100.0,gid,False,accept: exact GADM GID_1 join
+IND2-a7f61d5dc5,Sehore,Madhya Pradesh,IND.19_1,Madhya Pradesh,India,100.0,gid,False,accept: exact GADM GID_1 join
+IND2-aa216da32e,Mahendragarh,Haryana,IND.12_1,Haryana,India,100.0,gid,False,accept: exact GADM GID_1 join
+IND2-aa4e5be1bd,Umaria,Madhya Pradesh,IND.19_1,Madhya Pradesh,India,100.0,gid,False,accept: exact GADM GID_1 join
+IND2-aa6d650846,Ajmer,Rajasthan,IND.29_1,Rajasthan,India,100.0,gid,False,accept: exact GADM GID_1 join
+IND2-aabe403e56,Garhchiroli,Maharashtra,IND.20_1,Maharashtra,India,100.0,gid,False,accept: exact GADM GID_1 join
+IND2-aac7540cda,Siwan,Bihar,IND.5_1,Bihar,India,100.0,gid,False,accept: exact GADM GID_1 join
+IND2-aaeee27247,Rajkot,Gujarat,IND.11_1,Gujarat,India,100.0,gid,False,accept: exact GADM GID_1 join
+IND2-ab24fe02a7,Jalaun,Uttar Pradesh,IND.34_1,Uttar Pradesh,India,100.0,gid,False,accept: exact GADM GID_1 join
+IND2-abb9f35d45,Almora,Uttarakhand,IND.35_1,Uttarakhand,India,100.0,gid,False,accept: exact GADM GID_1 join
+IND2-ac43ed4489,Hanumangarh,Rajasthan,IND.29_1,Rajasthan,India,100.0,gid,False,accept: exact GADM GID_1 join
+IND2-acd34d610f,Mahisagar,Gujarat,IND.11_1,Gujarat,India,100.0,gid,False,accept: exact GADM GID_1 join
+IND2-acd8f56425,Hugli,West Bengal,IND.36_1,West Bengal,India,100.0,gid,False,accept: exact GADM GID_1 join
+IND2-ada7b8ffb1,Korba,Chhattisgarh,IND.7_1,Chattisgarh,India,100.0,gid,False,accept: exact GADM GID_1 join
+IND2-ae5c037b57,Bhandara,Maharashtra,IND.20_1,Maharashtra,India,100.0,gid,False,accept: exact GADM GID_1 join
+IND2-ae73ae1e21,Sonipat,Haryana,IND.12_1,Haryana,India,100.0,gid,False,accept: exact GADM GID_1 join
+IND2-b02e5ef51c,Bikaner,Rajasthan,IND.29_1,Rajasthan,India,100.0,gid,False,accept: exact GADM GID_1 join
+IND2-b05b43a8fd,Aizawl,Mizoram,IND.23_1,Mizoram,India,100.0,gid,False,accept: exact GADM GID_1 join
+IND2-b085a82693,Munger,Bihar,IND.5_1,Bihar,India,100.0,gid,False,accept: exact GADM GID_1 join
+IND2-b092756b96,Kabeerdham,Chhattisgarh,IND.7_1,Chattisgarh,India,100.0,gid,False,accept: exact GADM GID_1 join
+IND2-b131cba7c7,Kanniyakumari,Tamil Nadu,IND.31_1,Tamil Nadu,India,100.0,gid,False,accept: exact GADM GID_1 join
+IND2-b16f306756,Darrang,Assam,IND.4_1,Assam,India,100.0,gid,False,accept: exact GADM GID_1 join
+IND2-b19b4bc186,North and Middle Andaman,Andaman and Nicobar,IND.1_1,Andaman Nicobar,India,100.0,gid,False,accept: exact GADM GID_1 join
+IND2-b277525a07,Khordha,Odisha,IND.26_1,Odisha,India,100.0,gid,False,accept: exact GADM GID_1 join
+IND2-b30995d708,Kandhamal,Odisha,IND.26_1,Odisha,India,100.0,gid,False,accept: exact GADM GID_1 join
+IND2-b30ac48e25,Janjgir-Champa,Chhattisgarh,IND.7_1,Chattisgarh,India,100.0,gid,False,accept: exact GADM GID_1 join
+IND2-b33a7ddeca,Uttar Bastar Kanker,Chhattisgarh,IND.7_1,Chattisgarh,India,100.0,gid,False,accept: exact GADM GID_1 join
+IND2-b394fa7d13,Haveri,Karnataka,IND.16_1,Karnataka,India,100.0,gid,False,accept: exact GADM GID_1 join
+IND2-b40c48111a,Pratapgarh,Uttar Pradesh,IND.34_1,Uttar Pradesh,India,100.0,gid,False,accept: exact GADM GID_1 join
+IND2-b48c176463,Palakkad,Kerala,IND.17_1,Kerala,India,100.0,gid,False,accept: exact GADM GID_1 join
+IND2-b496ab49b2,Sitamarhi,Bihar,IND.5_1,Bihar,India,100.0,gid,False,accept: exact GADM GID_1 join
+IND2-b4972d5f46,Arwal,Bihar,IND.5_1,Bihar,India,100.0,gid,False,accept: exact GADM GID_1 join
+IND2-b592ca17ae,Phek,Nagaland,IND.24_1,Nagaland,India,100.0,gid,False,accept: exact GADM GID_1 join
+IND2-b5b7debe55,Tiruppur,Tamil Nadu,IND.31_1,Tamil Nadu,India,100.0,gid,False,accept: exact GADM GID_1 join
+IND2-b61eff5913,Dhubri,Assam,IND.4_1,Assam,India,100.0,gid,False,accept: exact GADM GID_1 join
+IND2-b672b4f6a6,Sabar Kantha,Gujarat,IND.11_1,Gujarat,India,100.0,gid,False,accept: exact GADM GID_1 join
+IND2-b684a196f4,Rayagada,Odisha,IND.26_1,Odisha,India,100.0,gid,False,accept: exact GADM GID_1 join
+IND2-b747102a77,Ariyalur,Tamil Nadu,IND.31_1,Tamil Nadu,India,100.0,gid,False,accept: exact GADM GID_1 join
+IND2-b7e70a3a7f,Uttarkashi,Uttarakhand,IND.35_1,Uttarakhand,India,100.0,gid,False,accept: exact GADM GID_1 join
+IND2-b804697bf1,Washim,Maharashtra,IND.20_1,Maharashtra,India,100.0,gid,False,accept: exact GADM GID_1 join
+IND2-b8836dd99e,The Nilgiris,Tamil Nadu,IND.31_1,Tamil Nadu,India,100.0,gid,False,accept: exact GADM GID_1 join
+IND2-b98174eb5d,Guna,Madhya Pradesh,IND.19_1,Madhya Pradesh,India,100.0,gid,False,accept: exact GADM GID_1 join
+IND2-ba058656fc,Chitradurga,Karnataka,IND.16_1,Karnataka,India,100.0,gid,False,accept: exact GADM GID_1 join
+IND2-ba25e9d151,Lower Dibang Valley,Arunachal Pradesh,IND.3_1,Arunachal Pradesh,India,100.0,gid,False,accept: exact GADM GID_1 join
+IND2-bbace4cdb0,Kodagu,Karnataka,IND.16_1,Karnataka,India,100.0,gid,False,accept: exact GADM GID_1 join
+IND2-bc666b0ac3,South Andaman,Andaman and Nicobar,IND.1_1,Andaman Nicobar,India,100.0,gid,False,accept: exact GADM GID_1 join
+IND2-bd164b36c4,Churachandpur,Manipur,IND.21_1,Manipur,India,100.0,gid,False,accept: exact GADM GID_1 join
+IND2-be0cb589c0,Kaithal,Haryana,IND.12_1,Haryana,India,100.0,gid,False,accept: exact GADM GID_1 join
+IND2-bfb638a75b,Aligarh,Uttar Pradesh,IND.34_1,Uttar Pradesh,India,100.0,gid,False,accept: exact GADM GID_1 join
+IND2-c0212b0a4b,Lucknow,Uttar Pradesh,IND.34_1,Uttar Pradesh,India,100.0,gid,False,accept: exact GADM GID_1 join
+IND2-c03eb1dec4,Unnao,Uttar Pradesh,IND.34_1,Uttar Pradesh,India,100.0,gid,False,accept: exact GADM GID_1 join
+IND2-c04064e2b7,Ramanagara,Karnataka,IND.16_1,Karnataka,India,100.0,gid,False,accept: exact GADM GID_1 join
+IND2-c05e41b179,Subarnapur,Odisha,IND.26_1,Odisha,India,100.0,gid,False,accept: exact GADM GID_1 join
+IND2-c063e88306,Surguja,Chhattisgarh,IND.7_1,Chattisgarh,India,100.0,gid,False,accept: exact GADM GID_1 join
+IND2-c06988e9ff,Jalgaon,Maharashtra,IND.20_1,Maharashtra,India,100.0,gid,False,accept: exact GADM GID_1 join
+IND2-c0d767d1a3,Gajapati,Odisha,IND.26_1,Odisha,India,100.0,gid,False,accept: exact GADM GID_1 join
+IND2-c1b3c57073,Aurangabad,Bihar,IND.5_1,Bihar,India,100.0,gid,False,accept: exact GADM GID_1 join
+IND2-c1bbc6281a,Etah,Uttar Pradesh,IND.34_1,Uttar Pradesh,India,100.0,gid,False,accept: exact GADM GID_1 join
+IND2-c1d74b01e9,Mathura,Uttar Pradesh,IND.34_1,Uttar Pradesh,India,100.0,gid,False,accept: exact GADM GID_1 join
+IND2-c28a01b70c,Bhojpur,Bihar,IND.5_1,Bihar,India,100.0,gid,False,accept: exact GADM GID_1 join
+IND2-c2edc188eb,Dakshin Dinajpur,West Bengal,IND.36_1,West Bengal,India,100.0,gid,False,accept: exact GADM GID_1 join
+IND2-c31fd88823,Thiruvarur,Tamil Nadu,IND.31_1,Tamil Nadu,India,100.0,gid,False,accept: exact GADM GID_1 join
+IND2-c355aa2cbd,Mandya,Karnataka,IND.16_1,Karnataka,India,100.0,gid,False,accept: exact GADM GID_1 join
+IND2-c3762a27f7,Bangalore,Karnataka,IND.16_1,Karnataka,India,100.0,gid,False,accept: exact GADM GID_1 join
+IND2-c3eb9603ef,Maldah,West Bengal,IND.36_1,West Bengal,India,100.0,gid,False,accept: exact GADM GID_1 join
+IND2-c4c9862cdd,Tehri Garhwal,Uttarakhand,IND.35_1,Uttarakhand,India,100.0,gid,False,accept: exact GADM GID_1 join
+IND2-c4d82f25df,Udalguri,Assam,IND.4_1,Assam,India,100.0,gid,False,accept: exact GADM GID_1 join
+IND2-c57169b3c2,Chittoor,Andhra Pradesh,IND.2_1,Andhra Pradesh,India,100.0,gid,False,accept: exact GADM GID_1 join
+IND2-c621b985de,Bharuch,Gujarat,IND.11_1,Gujarat,India,100.0,gid,False,accept: exact GADM GID_1 join
+IND2-c6afc8deda,Mansa,Punjab,IND.28_1,Punjab,India,100.0,gid,False,accept: exact GADM GID_1 join
+IND2-c6fe51f350,Koriya,Chhattisgarh,IND.7_1,Chattisgarh,India,100.0,gid,False,accept: exact GADM GID_1 join
+IND2-c732aa004f,Betul,Madhya Pradesh,IND.19_1,Madhya Pradesh,India,100.0,gid,False,accept: exact GADM GID_1 join
+IND2-c74da27473,Peren,Nagaland,IND.24_1,Nagaland,India,100.0,gid,False,accept: exact GADM GID_1 join
+IND2-c787d90f31,Balod,Chhattisgarh,IND.7_1,Chattisgarh,India,100.0,gid,False,accept: exact GADM GID_1 join
+IND2-c80736c9e1,Nawada,Bihar,IND.5_1,Bihar,India,100.0,gid,False,accept: exact GADM GID_1 join
+IND2-c8b1038ac0,North Sikkim,Sikkim,IND.30_1,Sikkim,India,100.0,gid,False,accept: exact GADM GID_1 join
+IND2-c9740162d3,Kota,Rajasthan,IND.29_1,Rajasthan,India,100.0,gid,False,accept: exact GADM GID_1 join
+IND2-c97f3f672c,Sant Ravi Das Nagar,Uttar Pradesh,IND.34_1,Uttar Pradesh,India,100.0,gid,False,accept: exact GADM GID_1 join
+IND2-ca709b7c92,Dindigul,Tamil Nadu,IND.31_1,Tamil Nadu,India,100.0,gid,False,accept: exact GADM GID_1 join
+IND2-cc02709b54,West Garo Hills,Meghalaya,IND.22_1,Meghalaya,India,100.0,gid,False,accept: exact GADM GID_1 join
+IND2-cc5af5bb7b,Shajapur,Madhya Pradesh,IND.19_1,Madhya Pradesh,India,100.0,gid,False,accept: exact GADM GID_1 join
+IND2-cca54d81d2,Khammam,Telangana,IND.32_1,Telangana,India,100.0,gid,False,accept: exact GADM GID_1 join
+IND2-cd9d676570,Gurgaon,Haryana,IND.12_1,Haryana,India,100.0,gid,False,accept: exact GADM GID_1 join
+IND2-cdc39bacc1,Imphal East,Manipur,IND.21_1,Manipur,India,100.0,gid,False,accept: exact GADM GID_1 join
+IND2-cdfdca7598,Bhilwara,Rajasthan,IND.29_1,Rajasthan,India,100.0,gid,False,accept: exact GADM GID_1 join
+IND2-ce315f0442,Thoubal,Manipur,IND.21_1,Manipur,India,100.0,gid,False,accept: exact GADM GID_1 join
+IND2-ce71b48f1f,Rajnandgaon,Chhattisgarh,IND.7_1,Chattisgarh,India,100.0,gid,False,accept: exact GADM GID_1 join
+IND2-cea8e25f62,Chennai,Tamil Nadu,IND.31_1,Tamil Nadu,India,100.0,gid,False,accept: exact GADM GID_1 join
+IND2-cf41c93132,Tapi,Gujarat,IND.11_1,Gujarat,India,100.0,gid,False,accept: exact GADM GID_1 join
+IND2-cf607db869,Chandigarh,Chandigarh,IND.6_1,Chandigarh,India,100.0,gid,False,accept: exact GADM GID_1 join
+IND2-d1496f71b1,Dhemaji,Assam,IND.4_1,Assam,India,100.0,gid,False,accept: exact GADM GID_1 join
+IND2-d166d1fb13,Kolhapur,Maharashtra,IND.20_1,Maharashtra,India,100.0,gid,False,accept: exact GADM GID_1 join
+IND2-d18bce476b,North 24 Parganas,West Bengal,IND.36_1,West Bengal,India,100.0,gid,False,accept: exact GADM GID_1 join
+IND2-d18ee419b8,Theni,Tamil Nadu,IND.31_1,Tamil Nadu,India,100.0,gid,False,accept: exact GADM GID_1 join
+IND2-d198058860,Jaintia Hills,Meghalaya,IND.22_1,Meghalaya,India,100.0,gid,False,accept: exact GADM GID_1 join
+IND2-d231d3b5b0,Baleshwar,Odisha,IND.26_1,Odisha,India,100.0,gid,False,accept: exact GADM GID_1 join
+IND2-d245780299,Kheda,Gujarat,IND.11_1,Gujarat,India,100.0,gid,False,accept: exact GADM GID_1 join
+IND2-d2863a8e3f,Panch Mahals,Gujarat,IND.11_1,Gujarat,India,100.0,gid,False,accept: exact GADM GID_1 join
+IND2-d2ece55633,Nalgonda,Telangana,IND.32_1,Telangana,India,100.0,gid,False,accept: exact GADM GID_1 join
+IND2-d33bfa865f,Nagpur,Maharashtra,IND.20_1,Maharashtra,India,100.0,gid,False,accept: exact GADM GID_1 join
+IND2-d387098d2b,Raigarh,Chhattisgarh,IND.7_1,Chattisgarh,India,100.0,gid,False,accept: exact GADM GID_1 join
+IND2-d3fa5d43ac,Saharsa,Bihar,IND.5_1,Bihar,India,100.0,gid,False,accept: exact GADM GID_1 join
+IND2-d4504583df,Thane,Maharashtra,IND.20_1,Maharashtra,India,100.0,gid,False,accept: exact GADM GID_1 join
+IND2-d57ecf5d69,Basti,Uttar Pradesh,IND.34_1,Uttar Pradesh,India,100.0,gid,False,accept: exact GADM GID_1 join
+IND2-d646157abe,Baran,Rajasthan,IND.29_1,Rajasthan,India,100.0,gid,False,accept: exact GADM GID_1 join
+IND2-d6616dbdab,Mahasamund,Chhattisgarh,IND.7_1,Chattisgarh,India,100.0,gid,False,accept: exact GADM GID_1 join
+IND2-d6b4e8d4d5,Dungarpur,Rajasthan,IND.29_1,Rajasthan,India,100.0,gid,False,accept: exact GADM GID_1 join
+IND2-d6c90971ec,South Sikkim,Sikkim,IND.30_1,Sikkim,India,100.0,gid,False,accept: exact GADM GID_1 join
+IND2-d704d7055c,Sahibzada Ajit Singh Nagar,Punjab,IND.28_1,Punjab,India,100.0,gid,False,accept: exact GADM GID_1 join
+IND2-d7572221e7,Chamoli,Uttarakhand,IND.35_1,Uttarakhand,India,100.0,gid,False,accept: exact GADM GID_1 join
+IND2-d79990602b,Kalahandi,Odisha,IND.26_1,Odisha,India,100.0,gid,False,accept: exact GADM GID_1 join
+IND2-d7b5dbb62d,Pathanamthitta,Kerala,IND.17_1,Kerala,India,100.0,gid,False,accept: exact GADM GID_1 join
+IND2-d7c2a5b6af,Lakhimpur Kheri,Uttar Pradesh,IND.34_1,Uttar Pradesh,India,100.0,gid,False,accept: exact GADM GID_1 join
+IND2-d83b4b56ae,Saran,Bihar,IND.5_1,Bihar,India,100.0,gid,False,accept: exact GADM GID_1 join
+IND2-d8ea2bfbd5,Jaisalmer,Rajasthan,IND.29_1,Rajasthan,India,100.0,gid,False,accept: exact GADM GID_1 join
+IND2-d97e2e4ae9,Meerut,Uttar Pradesh,IND.34_1,Uttar Pradesh,India,100.0,gid,False,accept: exact GADM GID_1 join
+IND2-d9c58123d0,Tonk,Rajasthan,IND.29_1,Rajasthan,India,100.0,gid,False,accept: exact GADM GID_1 join
+IND2-da04b9f706,Gopalganj,Bihar,IND.5_1,Bihar,India,100.0,gid,False,accept: exact GADM GID_1 join
+IND2-da2fb8fa45,Kasaragod,Kerala,IND.17_1,Kerala,India,100.0,gid,False,accept: exact GADM GID_1 join
+IND2-da3354c29f,Ganjam,Odisha,IND.26_1,Odisha,India,100.0,gid,False,accept: exact GADM GID_1 join
+IND2-da5851ff2a,Bilaspur,Himachal Pradesh,IND.13_1,Himachal Pradesh,India,100.0,gid,False,accept: exact GADM GID_1 join
+IND2-da5bc443e5,Medak,Telangana,IND.32_1,Telangana,India,100.0,gid,False,accept: exact GADM GID_1 join
+IND2-dad6f48f78,East Sikkim,Sikkim,IND.30_1,Sikkim,India,100.0,gid,False,accept: exact GADM GID_1 join
+IND2-db5a8d29d9,Krishna,Andhra Pradesh,IND.2_1,Andhra Pradesh,India,100.0,gid,False,accept: exact GADM GID_1 join
+IND2-db80537dea,Singrauli,Madhya Pradesh,IND.19_1,Madhya Pradesh,India,100.0,gid,False,accept: exact GADM GID_1 join
+IND2-dc5c214d37,Mon,Nagaland,IND.24_1,Nagaland,India,100.0,gid,False,accept: exact GADM GID_1 join
+IND2-dd85a56cc6,Varanasi,Uttar Pradesh,IND.34_1,Uttar Pradesh,India,100.0,gid,False,accept: exact GADM GID_1 join
+IND2-de28288bfb,Lakhisarai,Bihar,IND.5_1,Bihar,India,100.0,gid,False,accept: exact GADM GID_1 join
+IND2-de330ffd45,Gulbarga,Karnataka,IND.16_1,Karnataka,India,100.0,gid,False,accept: exact GADM GID_1 join
+IND2-de9f970dbf,Anantapur,Andhra Pradesh,IND.2_1,Andhra Pradesh,India,100.0,gid,False,accept: exact GADM GID_1 join
+IND2-def8e849a2,Chirang,Assam,IND.4_1,Assam,India,100.0,gid,False,accept: exact GADM GID_1 join
+IND2-defee8f02c,Balrampur,Uttar Pradesh,IND.34_1,Uttar Pradesh,India,100.0,gid,False,accept: exact GADM GID_1 join
+IND2-df5a050469,Amroha,Uttar Pradesh,IND.34_1,Uttar Pradesh,India,100.0,gid,False,accept: exact GADM GID_1 join
+IND2-df6d93c6eb,Koch Bihar,West Bengal,IND.36_1,West Bengal,India,100.0,gid,False,accept: exact GADM GID_1 join
+IND2-df6fb50bc2,Allahabad,Uttar Pradesh,IND.34_1,Uttar Pradesh,India,100.0,gid,False,accept: exact GADM GID_1 join
+IND2-e0047248e3,South 24 Parganas,West Bengal,IND.36_1,West Bengal,India,100.0,gid,False,accept: exact GADM GID_1 join
+IND2-e0824b66fa,Mysore,Karnataka,IND.16_1,Karnataka,India,100.0,gid,False,accept: exact GADM GID_1 join
+IND2-e0edacb819,Anugul,Odisha,IND.26_1,Odisha,India,100.0,gid,False,accept: exact GADM GID_1 join
+IND2-e116f50f8e,Kishanganj,Bihar,IND.5_1,Bihar,India,100.0,gid,False,accept: exact GADM GID_1 join
+IND2-e150ba8030,Sonbhadra,Uttar Pradesh,IND.34_1,Uttar Pradesh,India,100.0,gid,False,accept: exact GADM GID_1 join
+IND2-e1d78c6b99,Sheopur,Madhya Pradesh,IND.19_1,Madhya Pradesh,India,100.0,gid,False,accept: exact GADM GID_1 join
+IND2-e1f2e01da4,Viluppuram,Tamil Nadu,IND.31_1,Tamil Nadu,India,100.0,gid,False,accept: exact GADM GID_1 join
+IND2-e292f5dc94,Hardwar,Uttarakhand,IND.35_1,Uttarakhand,India,100.0,gid,False,accept: exact GADM GID_1 join
+IND2-e2d54de049,Pilibhit,Uttar Pradesh,IND.34_1,Uttar Pradesh,India,100.0,gid,False,accept: exact GADM GID_1 join
+IND2-e3360c3384,Kodarma,Jharkhand,IND.15_1,Jharkhand,India,100.0,gid,False,accept: exact GADM GID_1 join
+IND2-e366444556,Garhwal,Uttarakhand,IND.35_1,Uttarakhand,India,100.0,gid,False,accept: exact GADM GID_1 join
+IND2-e3926d525b,Rohtak,Haryana,IND.12_1,Haryana,India,100.0,gid,False,accept: exact GADM GID_1 join
+IND2-e3ad18d14d,Auraiya,Uttar Pradesh,IND.34_1,Uttar Pradesh,India,100.0,gid,False,accept: exact GADM GID_1 join
+IND2-e4b03f3e7d,Dharmapuri,Tamil Nadu,IND.31_1,Tamil Nadu,India,100.0,gid,False,accept: exact GADM GID_1 join
+IND2-e4eca62866,Kondagaon,Chhattisgarh,IND.7_1,Chattisgarh,India,100.0,gid,False,accept: exact GADM GID_1 join
+IND2-e5529ebc6b,Jhansi,Uttar Pradesh,IND.34_1,Uttar Pradesh,India,100.0,gid,False,accept: exact GADM GID_1 join
+IND2-e5f2c830ad,Sindhudurg,Maharashtra,IND.20_1,Maharashtra,India,100.0,gid,False,accept: exact GADM GID_1 join
+IND2-e6cb9b1f11,Nalanda,Bihar,IND.5_1,Bihar,India,100.0,gid,False,accept: exact GADM GID_1 join
+IND2-e72c59bf5f,Thanjavur,Tamil Nadu,IND.31_1,Tamil Nadu,India,100.0,gid,False,accept: exact GADM GID_1 join
+IND2-e73963d133,Gondiya,Maharashtra,IND.20_1,Maharashtra,India,100.0,gid,False,accept: exact GADM GID_1 join
+IND2-e75f5120e5,Begusarai,Bihar,IND.5_1,Bihar,India,100.0,gid,False,accept: exact GADM GID_1 join
+IND2-e797de9787,Baghpat,Uttar Pradesh,IND.34_1,Uttar Pradesh,India,100.0,gid,False,accept: exact GADM GID_1 join
+IND2-e818df339a,Kannauj,Uttar Pradesh,IND.34_1,Uttar Pradesh,India,100.0,gid,False,accept: exact GADM GID_1 join
+IND2-e899cc7ad5,Firozabad,Uttar Pradesh,IND.34_1,Uttar Pradesh,India,100.0,gid,False,accept: exact GADM GID_1 join
+IND2-e934a5a80f,Bilaspur,Chhattisgarh,IND.7_1,Chattisgarh,India,100.0,gid,False,accept: exact GADM GID_1 join
+IND2-e975ef8ca1,Tiruchirappalli,Tamil Nadu,IND.31_1,Tamil Nadu,India,100.0,gid,False,accept: exact GADM GID_1 join
+IND2-e9c482d01c,Ratnagiri,Maharashtra,IND.20_1,Maharashtra,India,100.0,gid,False,accept: exact GADM GID_1 join
+IND2-e9f0dca230,Ahmadnagar,Maharashtra,IND.20_1,Maharashtra,India,100.0,gid,False,accept: exact GADM GID_1 join
+IND2-ea672340ae,Hoshiarpur,Punjab,IND.28_1,Punjab,India,100.0,gid,False,accept: exact GADM GID_1 join
+IND2-eb7146a99c,Morigaon,Assam,IND.4_1,Assam,India,100.0,gid,False,accept: exact GADM GID_1 join
+IND2-eb8e8ca652,Uttar Dinajpur,West Bengal,IND.36_1,West Bengal,India,100.0,gid,False,accept: exact GADM GID_1 join
+IND2-ed1fe0ef1e,Dimapur,Nagaland,IND.24_1,Nagaland,India,100.0,gid,False,accept: exact GADM GID_1 join
+IND2-ed37bfe60f,Patna,Bihar,IND.5_1,Bihar,India,100.0,gid,False,accept: exact GADM GID_1 join
+IND2-ee016c151a,Bhavnagar,Gujarat,IND.11_1,Gujarat,India,100.0,gid,False,accept: exact GADM GID_1 join
+IND2-ee38857c35,Dumka,Jharkhand,IND.15_1,Jharkhand,India,100.0,gid,False,accept: exact GADM GID_1 join
+IND2-ee99e7aebc,Palamu,Jharkhand,IND.15_1,Jharkhand,India,100.0,gid,False,accept: exact GADM GID_1 join
+IND2-eed9f2d5c4,Muzaffarnagar,Uttar Pradesh,IND.34_1,Uttar Pradesh,India,100.0,gid,False,accept: exact GADM GID_1 join
+IND2-ef5b33b471,Kancheepuram,Tamil Nadu,IND.31_1,Tamil Nadu,India,100.0,gid,False,accept: exact GADM GID_1 join
+IND2-ef6310521c,Surajpur,Chhattisgarh,IND.7_1,Chattisgarh,India,100.0,gid,False,accept: exact GADM GID_1 join
+IND2-ef72db1c75,Tinsukia,Assam,IND.4_1,Assam,India,100.0,gid,False,accept: exact GADM GID_1 join
+IND2-f01f34bf77,Yavatmal,Maharashtra,IND.20_1,Maharashtra,India,100.0,gid,False,accept: exact GADM GID_1 join
+IND2-f061e1ab6a,Rohtas,Bihar,IND.5_1,Bihar,India,100.0,gid,False,accept: exact GADM GID_1 join
+IND2-f12241bd94,Nagaon,Assam,IND.4_1,Assam,India,100.0,gid,False,accept: exact GADM GID_1 join
+IND2-f12e427888,Sirmaur,Himachal Pradesh,IND.13_1,Himachal Pradesh,India,100.0,gid,False,accept: exact GADM GID_1 join
+IND2-f25952c131,Sirohi,Rajasthan,IND.29_1,Rajasthan,India,100.0,gid,False,accept: exact GADM GID_1 join
+IND2-f30407a9db,Nizamabad,Telangana,IND.32_1,Telangana,India,100.0,gid,False,accept: exact GADM GID_1 join
+IND2-f3155ce880,Kushinagar,Uttar Pradesh,IND.34_1,Uttar Pradesh,India,100.0,gid,False,accept: exact GADM GID_1 join
+IND2-f31b4282fe,East Siang,Arunachal Pradesh,IND.3_1,Arunachal Pradesh,India,100.0,gid,False,accept: exact GADM GID_1 join
+IND2-f3230f5c3a,Hardoi,Uttar Pradesh,IND.34_1,Uttar Pradesh,India,100.0,gid,False,accept: exact GADM GID_1 join
+IND2-f34f662600,Satara,Maharashtra,IND.20_1,Maharashtra,India,100.0,gid,False,accept: exact GADM GID_1 join
+IND2-f47ffa7706,Kohima,Nagaland,IND.24_1,Nagaland,India,100.0,gid,False,accept: exact GADM GID_1 join
+IND2-f484d72a8a,Bokaro,Jharkhand,IND.15_1,Jharkhand,India,100.0,gid,False,accept: exact GADM GID_1 join
+IND2-f504730b18,South Tripura,Tripura,IND.33_1,Tripura,India,100.0,gid,False,accept: exact GADM GID_1 join
+IND2-f56546f2bc,Neemuch,Madhya Pradesh,IND.19_1,Madhya Pradesh,India,100.0,gid,False,accept: exact GADM GID_1 join
+IND2-f650465bbb,Raigarh,Maharashtra,IND.20_1,Maharashtra,India,100.0,gid,False,accept: exact GADM GID_1 join
+IND2-f6652f7650,Balrampur,Chhattisgarh,IND.7_1,Chattisgarh,India,100.0,gid,False,accept: exact GADM GID_1 join
+IND2-f7996d55ed,Buldana,Maharashtra,IND.20_1,Maharashtra,India,100.0,gid,False,accept: exact GADM GID_1 join
+IND2-f81d7b7e7e,Hassan,Karnataka,IND.16_1,Karnataka,India,100.0,gid,False,accept: exact GADM GID_1 join
+IND2-f82f1a9130,Bemetara,Chhattisgarh,IND.7_1,Chattisgarh,India,100.0,gid,False,accept: exact GADM GID_1 join
+IND2-f899a56118,Amethi,Uttar Pradesh,IND.34_1,Uttar Pradesh,India,100.0,gid,False,accept: exact GADM GID_1 join
+IND2-f8c25f2c94,Jaunpur,Uttar Pradesh,IND.34_1,Uttar Pradesh,India,100.0,gid,False,accept: exact GADM GID_1 join
+IND2-f938a897ae,Imphal West,Manipur,IND.21_1,Manipur,India,100.0,gid,False,accept: exact GADM GID_1 join
+IND2-f9524afe84,Tikamgarh,Madhya Pradesh,IND.19_1,Madhya Pradesh,India,100.0,gid,False,accept: exact GADM GID_1 join
+IND2-f9778de801,Sheohar,Bihar,IND.5_1,Bihar,India,100.0,gid,False,accept: exact GADM GID_1 join
+IND2-fa1ca2c8cd,Azamgarh,Uttar Pradesh,IND.34_1,Uttar Pradesh,India,100.0,gid,False,accept: exact GADM GID_1 join
+IND2-fa984c8609,Banas Kantha,Gujarat,IND.11_1,Gujarat,India,100.0,gid,False,accept: exact GADM GID_1 join
+IND2-fb33e57a2a,Morbi,Gujarat,IND.11_1,Gujarat,India,100.0,gid,False,accept: exact GADM GID_1 join
+IND2-fbc109b940,Banda,Uttar Pradesh,IND.34_1,Uttar Pradesh,India,100.0,gid,False,accept: exact GADM GID_1 join
+IND2-fc29a1c2ea,Farrukhabad,Uttar Pradesh,IND.34_1,Uttar Pradesh,India,100.0,gid,False,accept: exact GADM GID_1 join
+IND2-fc9dddab69,Chandel,Manipur,IND.21_1,Manipur,India,100.0,gid,False,accept: exact GADM GID_1 join
+IND2-fd50728c5f,Budaun,Uttar Pradesh,IND.34_1,Uttar Pradesh,India,100.0,gid,False,accept: exact GADM GID_1 join
+IND2-fd67ffae9a,Rampur,Uttar Pradesh,IND.34_1,Uttar Pradesh,India,100.0,gid,False,accept: exact GADM GID_1 join
+IND2-fd6c72cc0c,Visakhapatnam,Andhra Pradesh,IND.2_1,Andhra Pradesh,India,100.0,gid,False,accept: exact GADM GID_1 join
+IND2-fd78c99563,Bagalkot,Karnataka,IND.16_1,Karnataka,India,100.0,gid,False,accept: exact GADM GID_1 join
+IND2-fda389d5f9,Kaushambi,Uttar Pradesh,IND.34_1,Uttar Pradesh,India,100.0,gid,False,accept: exact GADM GID_1 join
+IND2-fde4669526,Vadodara,Gujarat,IND.11_1,Gujarat,India,100.0,gid,False,accept: exact GADM GID_1 join
+IND2-fe219be956,Jhabua,Madhya Pradesh,IND.19_1,Madhya Pradesh,India,100.0,gid,False,accept: exact GADM GID_1 join
+IND2-fe2599e496,Indore,Madhya Pradesh,IND.19_1,Madhya Pradesh,India,100.0,gid,False,accept: exact GADM GID_1 join
+IND2-fe530a96e8,East Godavari,Andhra Pradesh,IND.2_1,Andhra Pradesh,India,100.0,gid,False,accept: exact GADM GID_1 join
+IND2-fee9432d72,Belgaum,Karnataka,IND.16_1,Karnataka,India,100.0,gid,False,accept: exact GADM GID_1 join
+IND2-ff5d54d033,Mandla,Madhya Pradesh,IND.19_1,Madhya Pradesh,India,100.0,gid,False,accept: exact GADM GID_1 join
+IND2-ffccdd1d02,Faridkot,Punjab,IND.28_1,Punjab,India,100.0,gid,False,accept: exact GADM GID_1 join
+IND2-ffdd56eb41,Salem,Tamil Nadu,IND.31_1,Tamil Nadu,India,100.0,gid,False,accept: exact GADM GID_1 join

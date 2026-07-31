@@ -1,0 +1,4 @@
+name,reason
+Lakshadweep,"GADM 4.1 ADM1 IND.18_1, one district. DOSE V2.14's 33 Indian regions do not include Lakshadweep at all, so there is no state GDP to attach. Verified 2026-07-31 against DOSE V2.14: no region with this GID or name. Not a matching failure; the label source simply omits this union territory."
+Dadra and Nagar Haveli,"GADM 4.1 ADM1 IND.8_1, one district. Absent from DOSE V2.14's 33 regions. Note GADM 4.1 still carries the pre-2020 boundaries: Dadra and Nagar Haveli merged with Daman and Diu into a single union territory on 2020-01-26, but GADM keeps them as two ADM1 units. DOSE covers neither."
+Daman and Diu,"GADM 4.1 ADM1 IND.9_1, two districts (Daman, Diu). Absent from DOSE V2.14's 33 regions. Same 2020-01-26 merger note as Dadra and Nagar Haveli: GADM 4.1 predates the merger and DOSE covers neither unit."
