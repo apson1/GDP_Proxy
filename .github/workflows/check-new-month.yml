@@ -1,0 +1,56 @@
+name: Check for a new VIIRS month
+
+# NOAA posts a monthly VIIRS composite roughly three to six weeks after the month
+# ends, so there is no point running daily. This runs weekly and no-ops most
+# weeks, which is the intended behaviour: --check is a single aggregate_max on
+# system:time_start, the one getInfo this project allows (CLAUDE.md rule 1).
+on:
+  schedule:
+    - cron: "17 6 * * 1" # Mondays 06:17 UTC
+  workflow_dispatch: # so a human can poke it without waiting a week
+
+permissions:
+  contents: read
+
+concurrency:
+  group: check-new-month
+  cancel-in-progress: false
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+          cache: pip
+
+      - name: Install
+        run: |
+          python -m pip install --upgrade pip
+          pip install -e .
+
+      # Service account, not personal credentials: a personal refresh token in a
+      # repo secret is a standing credential nobody rotates. The account must
+      # also be registered against the Earth Engine project, which is separate
+      # from creating it -- see SETUP.md Part A.
+      - name: Authenticate to Earth Engine
+        uses: google-github-actions/auth@v2
+        with:
+          credentials_json: ${{ secrets.GEE_SERVICE_ACCOUNT_JSON }}
+
+      - name: Check for a new composite
+        env:
+          GEE_PROJECT_ID: ${{ secrets.GEE_PROJECT_ID }}
+          TARGET_COUNTRY: india
+        run: python -m gdp_proxy.pipeline --check
+
+      # The check is read-only and cheap. Extraction is deliberately NOT wired in
+      # here: an export writes to Drive and needs a human to pull the CSVs down,
+      # and running it unattended on a cron is how quota disappears (rule 4).
+      - name: Note
+        if: always()
+        run: echo "Extraction stays manual on purpose; see BUILD.md."

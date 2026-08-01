@@ -1,0 +1,13 @@
+region_id,district,state,direction
+IND2-4786e52249,Gautam Buddha Nagar,Uttar Pradesh,high
+IND2-cd9d676570,Gurgaon,Haryana,high
+IND2-c3762a27f7,Bangalore,Karnataka,high
+IND2-7a0110991c,Pune,Maharashtra,high
+IND2-3efd6142a8,Ranga Reddy,Telangana,high
+IND2-6039ff9f5a,Surat,Gujarat,high
+IND2-6cdd6da967,Araria,Bihar,low
+IND2-b496ab49b2,Sitamarhi,Bihar,low
+IND2-3ba019b489,Supaul,Bihar,low
+IND2-4aa34135be,Dantewada,Chhattisgarh,low
+IND2-f9778de801,Sheohar,Bihar,low
+IND2-d79990602b,Kalahandi,Odisha,low
