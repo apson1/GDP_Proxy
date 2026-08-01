@@ -1,0 +1,43 @@
+{
+  "country": "india",
+  "iso3": "IND",
+  "admin_level": 2,
+  "source": "gadm",
+  "version": "4.1",
+  "license": "GADM: academic and non-commercial use only",
+  "n_polygons": 676,
+  "total_area_km2": 3151382.15,
+  "retrieved_at": "2026-08-01T19:19:17+00:00",
+  "checks": [
+    {
+      "name": "region_id unique",
+      "passed": true,
+      "detail": "0 duplicates"
+    },
+    {
+      "name": "names present",
+      "passed": true,
+      "detail": "0 blank names"
+    },
+    {
+      "name": "geometries valid",
+      "passed": true,
+      "detail": "0 still invalid after repair"
+    },
+    {
+      "name": "no sliver polygons",
+      "passed": true,
+      "detail": "0 polygons under 1 km2"
+    },
+    {
+      "name": "polygon count matches config",
+      "passed": true,
+      "detail": "skipped: set expected_polygon_count in countries.yaml after your first run"
+    },
+    {
+      "name": "total area within tolerance",
+      "passed": true,
+      "detail": "skipped: no reference_land_area_km2 in config"
+    }
+  ]
+}

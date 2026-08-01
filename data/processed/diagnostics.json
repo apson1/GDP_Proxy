@@ -1,0 +1,403 @@
+{
+  "series": "annual",
+  "panel_level": "label",
+  "within_elasticity": -0.07321362850666083,
+  "within_se": 0.06454071994340654,
+  "contaminated_diagnostics": {
+    "_warning": "within_entity_only retains the VIIRS calibration discontinuity and is NOT a validation signal. It flips sign across the break, which a structural elasticity cannot do. Do not compare it to the literature.",
+    "within_entity_only": 0.3581625492937296,
+    "within_entity_only_se": 0.06491395398859869,
+    "entity_only_pre_break": -0.201157729003982,
+    "entity_only_post_break": 0.3538251277660705,
+    "break_year": 2017,
+    "sign_flips_across_break": true
+  },
+  "dropped_label_regions": [],
+  "n_dropped_districts": 0,
+  "label_coverage": [
+    {
+      "region": "Kerala",
+      "observed_years": [
+        2015,
+        2016,
+        2017,
+        2018,
+        2019
+      ],
+      "missing_years": [
+        2014
+      ],
+      "n_label_years": 5,
+      "correct_by_history": false,
+      "reason": "Gap in the DOSE V2.14 series. Kerala existed throughout and a 2014 GSDP is published by MOSPI, so this is missing source data rather than an administrative fact. Fill from MOSPI if the ADM1 panel is extended.",
+      "explained": true
+    },
+    {
+      "region": "Puducherry",
+      "observed_years": [
+        2014
+      ],
+      "missing_years": [
+        2015,
+        2016,
+        2017,
+        2018,
+        2019
+      ],
+      "n_label_years": 1,
+      "correct_by_history": false,
+      "reason": "The DOSE V2.14 series for Puducherry ends after 2014. The union territory continues to exist and publish; this is a truncated source series, not an administrative change.",
+      "explained": true
+    },
+    {
+      "region": "Telangana",
+      "observed_years": [
+        2015,
+        2016,
+        2017,
+        2018,
+        2019
+      ],
+      "missing_years": [
+        2014
+      ],
+      "n_label_years": 5,
+      "correct_by_history": true,
+      "reason": "Telangana was created on 2014-06-02 by the Andhra Pradesh Reorganisation Act. DOSE correctly has no 2014 figure because the state did not exist for most of that year. Do not backfill; a synthetic 2014 Telangana GSDP would be fabricated data.",
+      "explained": true
+    }
+  ],
+  "n_unexplained_label_gaps": 0,
+  "cross_elasticity": 0.8087345415643056,
+  "cross_se": 0.014531495919585564,
+  "n_obs": 191,
+  "n_regions": 33,
+  "n_years": 6,
+  "spatial_log_r2": 0.6861036071138702,
+  "spatial_level_r2": 0.4071674766118951,
+  "temporal_log_r2": 0.7895442266261826,
+  "temporal_level_r2": 0.4463414508735357,
+  "interval_coverage": 0.899197592778335,
+  "nominal_coverage": 0.9,
+  "elasticity_checks": [
+    {
+      "name": "within elasticity in band",
+      "passed": false,
+      "detail": "-0.073 (se 0.065); expect [0.15, 0.6]. Below suggests the join lost signal or labels are nominal; above ~2 means units."
+    },
+    {
+      "name": "cross-sectional elasticity in band",
+      "passed": true,
+      "detail": "0.809 (se 0.015); expect [0.6, 1.0]."
+    }
+  ],
+  "version_boundary": {
+    "ok": true,
+    "baseline_mean": 1.014660079570864,
+    "baseline_sd": 0.036550570659952125,
+    "n_sd": 3.0,
+    "lower_bound": 0.9050083675910077,
+    "upper_bound": 1.1243117915507204,
+    "baseline_years": [
+      2014,
+      2015,
+      2016,
+      2017,
+      2018,
+      2019
+    ],
+    "checked_years": [
+      2024,
+      2025
+    ],
+    "offending_years": [],
+    "ratios": [
+      {
+        "year": 2014,
+        "annual_sol": 7230759.929450402,
+        "monthly_sol": 7118265.530194218,
+        "ratio": 1.0158036250234002,
+        "annual_dataset": "NOAA/VIIRS/DNB/ANNUAL_V21"
+      },
+      {
+        "year": 2015,
+        "annual_sol": 7859502.667474968,
+        "monthly_sol": 7578168.752280075,
+        "ratio": 1.0371242610703604,
+        "annual_dataset": "NOAA/VIIRS/DNB/ANNUAL_V21"
+      },
+      {
+        "year": 2016,
+        "annual_sol": 7732227.956134444,
+        "monthly_sol": 7310279.598295954,
+        "ratio": 1.0577198658635227,
+        "annual_dataset": "NOAA/VIIRS/DNB/ANNUAL_V21"
+      },
+      {
+        "year": 2017,
+        "annual_sol": 9690090.114481634,
+        "monthly_sol": 10144784.833903845,
+        "ratio": 0.9551794614802847,
+        "annual_dataset": "NOAA/VIIRS/DNB/ANNUAL_V21"
+      },
+      {
+        "year": 2018,
+        "annual_sol": 10081534.957601264,
+        "monthly_sol": 10166668.38093735,
+        "ratio": 0.9916262220674265,
+        "annual_dataset": "NOAA/VIIRS/DNB/ANNUAL_V21"
+      },
+      {
+        "year": 2019,
+        "annual_sol": 10285641.453455111,
+        "monthly_sol": 9981146.207685694,
+        "ratio": 1.0305070419201905,
+        "annual_dataset": "NOAA/VIIRS/DNB/ANNUAL_V21"
+      },
+      {
+        "year": 2024,
+        "annual_sol": 14735213.922172925,
+        "monthly_sol": 15184364.00486397,
+        "ratio": 0.9704202242157017,
+        "annual_dataset": "NOAA/VIIRS/DNB/ANNUAL_V22"
+      },
+      {
+        "year": 2025,
+        "annual_sol": 15877271.1709216,
+        "monthly_sol": 16144500.713445168,
+        "ratio": 0.983447642806258,
+        "annual_dataset": "NOAA/VIIRS/DNB/ANNUAL_V22"
+      }
+    ]
+  },
+  "allocation_validation": {
+    "n_district_years": 321,
+    "n_districts": 95,
+    "states": [
+      "Karnataka",
+      "Maharashtra",
+      "Tamil Nadu"
+    ],
+    "pearson": 0.8059747704069565,
+    "spearman": 0.8787495646369072,
+    "mae_share_points": 0.990192864514858,
+    "by_state": {
+      "Karnataka": {
+        "n": 30,
+        "years": [
+          2022
+        ],
+        "pearson": 0.9414475890734277,
+        "mae_share_points": 1.6090609298695682
+      },
+      "Maharashtra": {
+        "n": 99,
+        "years": [
+          2022,
+          2023,
+          2024
+        ],
+        "pearson": 0.7544496464677836,
+        "mae_share_points": 1.1020929811417546
+      },
+      "Tamil Nadu": {
+        "n": 192,
+        "years": [
+          2014,
+          2015,
+          2016,
+          2017,
+          2018,
+          2019
+        ],
+        "pearson": 0.7987919063767738,
+        "mae_share_points": 0.8357962316674411
+      }
+    },
+    "worst_districts": [
+      {
+        "matched_name": "Bangalore",
+        "source_region_name": "Karnataka",
+        "year": 2022,
+        "sol_share": 0.21317005228883273,
+        "gddp_share": 0.355862737374585,
+        "share_error": -0.14269268508575228,
+        "allocation_ratio": 0.5990232466077156
+      },
+      {
+        "matched_name": "Thane",
+        "source_region_name": "Maharashtra",
+        "year": 2023,
+        "sol_share": 0.054899832687956784,
+        "gddp_share": 0.1834530748269666,
+        "share_error": -0.12855324213900982,
+        "allocation_ratio": 0.29925817672850913
+      },
+      {
+        "matched_name": "Chennai",
+        "source_region_name": "Tamil Nadu",
+        "year": 2019,
+        "sol_share": 0.04275442600963673,
+        "gddp_share": 0.12124830035550592,
+        "share_error": -0.07849387434586919,
+        "allocation_ratio": 0.3526187656592189
+      },
+      {
+        "matched_name": "Dakshina Kannada",
+        "source_region_name": "Karnataka",
+        "year": 2022,
+        "sol_share": 0.017166342924610844,
+        "gddp_share": 0.056991798531734486,
+        "share_error": -0.03982545560712364,
+        "allocation_ratio": 0.30120725028623524
+      },
+      {
+        "matched_name": "Ahmadnagar",
+        "source_region_name": "Maharashtra",
+        "year": 2024,
+        "sol_share": 0.07547546977290649,
+        "gddp_share": 0.03881310671780775,
+        "share_error": 0.03666236305509874,
+        "allocation_ratio": 1.944587180862741
+      },
+      {
+        "matched_name": "Bangalore Rural",
+        "source_region_name": "Karnataka",
+        "year": 2022,
+        "sol_share": 0.04472089049525268,
+        "gddp_share": 0.019359488695461367,
+        "share_error": 0.02536140179979131,
+        "allocation_ratio": 2.3100243605987916
+      },
+      {
+        "matched_name": "Cuddalore",
+        "source_region_name": "Tamil Nadu",
+        "year": 2014,
+        "sol_share": 0.04953901067242466,
+        "gddp_share": 0.024466141025831657,
+        "share_error": 0.025072869646593002,
+        "allocation_ratio": 2.0247987052850203
+      },
+      {
+        "matched_name": "Kolhapur",
+        "source_region_name": "Maharashtra",
+        "year": 2024,
+        "sol_share": 0.018566529560930658,
+        "gddp_share": 0.04335567287725626,
+        "share_error": -0.0247891433163256,
+        "allocation_ratio": 0.4282376060335667
+      },
+      {
+        "matched_name": "Coimbatore",
+        "source_region_name": "Tamil Nadu",
+        "year": 2018,
+        "sol_share": 0.043904915797819626,
+        "gddp_share": 0.06629678774652933,
+        "share_error": -0.02239187194870971,
+        "allocation_ratio": 0.6622480106529455
+      },
+      {
+        "matched_name": "Kolar",
+        "source_region_name": "Karnataka",
+        "year": 2022,
+        "sol_share": 0.03837731589118434,
+        "gddp_share": 0.017098454104167878,
+        "share_error": 0.02127886178701646,
+        "allocation_ratio": 2.2444903882760707
+      }
+    ],
+    "size_gradient_corr": -0.38281975501446286,
+    "sectoral_gradient": {
+      "services": -0.5927313559541517,
+      "industry": 0.008174836237850631,
+      "agriculture": 0.535967141482367
+    },
+    "size_gradient_by_state": {
+      "Karnataka": -0.7662134969272403,
+      "Maharashtra": -0.41852207196117064,
+      "Tamil Nadu": -0.27758827515484585
+    },
+    "share_correction": {
+      "form": "corrected_share proportional to sol_share ** alpha, renormalised within state-year",
+      "n_parameters": 1,
+      "folds": [
+        {
+          "held_out_state": "Karnataka",
+          "n_test": 30,
+          "alpha_fitted_on_others": 0.9539157299481643,
+          "mae_uncorrected_pts": 1.6090609298695682,
+          "mae_corrected_pts": 1.678952181534352,
+          "delta_mae_pts": 0.06989125166478385,
+          "pearson_uncorrected": 0.9414475890734277,
+          "pearson_corrected": 0.9343963221373173,
+          "improved": false
+        },
+        {
+          "held_out_state": "Maharashtra",
+          "n_test": 99,
+          "alpha_fitted_on_others": 0.9144775533978664,
+          "mae_uncorrected_pts": 1.1020929811417546,
+          "mae_corrected_pts": 1.1450121190687514,
+          "delta_mae_pts": 0.042919137926997024,
+          "pearson_uncorrected": 0.7544496464677836,
+          "pearson_corrected": 0.7556395744617669,
+          "improved": false
+        },
+        {
+          "held_out_state": "Tamil Nadu",
+          "n_test": 192,
+          "alpha_fitted_on_others": 1.1030957185525392,
+          "mae_uncorrected_pts": 0.8357962316674411,
+          "mae_corrected_pts": 0.9222096898338229,
+          "delta_mae_pts": 0.08641345816638185,
+          "pearson_uncorrected": 0.7987919063767738,
+          "pearson_corrected": 0.7959954014248419,
+          "improved": false
+        }
+      ],
+      "alpha_range": [
+        0.9144775533978664,
+        1.1030957185525392
+      ],
+      "alpha_pooled_in_sample": 0.9547195997057151,
+      "alpha_per_state_in_sample": {
+        "Karnataka": 1.3758769763379575,
+        "Maharashtra": 0.9865627543496779,
+        "Tamil Nadu": 0.9040539566705622
+      },
+      "alpha_per_state_per_year": {
+        "Maharashtra": {
+          "2022": 0.9865659899125646,
+          "2023": 0.9779089453162922,
+          "2024": 0.9539174687148267
+        },
+        "Tamil Nadu": {
+          "2014": 0.867062673671252,
+          "2015": 0.9040540393128388,
+          "2016": 0.8952159268239844,
+          "2017": 0.9235961518304646,
+          "2018": 0.954717468132472,
+          "2019": 1.0432943120117413
+        }
+      },
+      "alpha_within_state_spread": {
+        "Maharashtra": 0.03264852119773787,
+        "Tamil Nadu": 0.17623163834048927
+      },
+      "alpha_between_state_spread": 0.47182301966739526,
+      "heterogeneity": "alpha is stable within a state across years and unstable between states, so the bias is a real per-state property rather than noise. Per-state correction was declined: it would cover 3 of 33 states and produce an inconsistently corrected map.",
+      "improved_in_every_fold": false,
+      "alpha_sign_consistent": false,
+      "accepted": false,
+      "applied_to_estimates": false,
+      "verdict": "REJECTED: does not generalise across states; uncorrected share retained"
+    }
+  },
+  "n_matched": 672,
+  "n_unmatched": 4,
+  "unmatched_adm1": [
+    "Dadra and Nagar Haveli",
+    "Daman and Diu",
+    "Lakshadweep"
+  ]
+}
