@@ -1,0 +1,240 @@
+# Country configuration. No country-specific values belong in source files.
+
+defaults:
+  viirs_monthly: "NOAA/VIIRS/DNB/MONTHLY_V1/VCMSLCFG"
+  # The annual family is split across two GEE asset ids by processing version.
+  # V21 covers 2013-2021, V22 picks up at 2022. Same bands, same family. The
+  # extractor picks by year and records which id produced each row, because V21
+  # and V22 are different processing versions and a v21/v22 boundary is itself a
+  # potential step that must stay visible.
+  viirs_annual: "NOAA/VIIRS/DNB/ANNUAL_V22"
+  viirs_annual_versions:
+    - id: "NOAA/VIIRS/DNB/ANNUAL_V21"
+      start_year: 2013
+      end_year: 2021
+    - id: "NOAA/VIIRS/DNB/ANNUAL_V22"
+      start_year: 2022
+      end_year: 2035
+  radiance_band: "avg_rad"
+  coverage_band: "cf_cvg"
+  # Which series trains the model. VCMSLCFG monthly has a known calibration step
+  # between 2016-12 and 2017-01: national SOL jumps ~39% and never returns. That
+  # is a product artefact, not growth. ANNUAL_V22 is inter-calibrated across
+  # years specifically to remove it, so training defaults to annual. Monthly is
+  # kept for within-year monitoring, where the step does not bite.
+  training_series: annual        # annual | monthly
+  # ANNUAL_V22 uses different band names from the monthly product.
+  annual_radiance_band: "average_masked"
+  annual_coverage_band: "cf_cvg"
+  # If a monthly series is used for modelling anyway, the step must be corrected
+  # rather than ignored. Offset is estimated on the overlap and stored.
+  monthly_break_year: 2017
+  # Background noise floor in nW/cm2/sr. Calibrate per country on a known dark area.
+  noise_floor: 0.4
+  # Minimum cloud-free observations for a pixel-month to count
+  min_cf_cvg: 2
+  # Radiance above which a pixel counts as "lit"
+  lit_threshold: 0.5
+  # Buffer in metres around known gas flare sites
+  flare_buffer_m: 7500
+  # JRC surface water occurrence percent above which a pixel is masked
+  water_occurrence_threshold: 50
+  scale_m: 500
+  # Population. GHSL P2023A is free in GEE, 100 m, 5-year epochs 1975-2030
+  # (2025 and 2030 are projections). Used for GDP per capita, which is the
+  # headline metric: total GDP ranks big districts high regardless of prosperity.
+  ghsl_collection: "JRC/GHSL/P2023A/GHS_POP"
+  ghsl_band: "population_count"
+  # MUST stay at the native 100 m. population_count is a count per pixel, so
+  # reducing at a coarser scale resamples and the summed total is wrong.
+  population_scale_m: 100
+  # Constant-price base year for deflation. Labels are deflated to this year's
+  # local currency before modelling (CLAUDE.md rule 9). DOSE ships a 2015 LCU
+  # constant series, so 2015 avoids a redundant re-deflation.
+  base_year: 2015
+  # DOSE release on Zenodo (record 20035157). The file is not committed; drop it
+  # in data/raw/labels/ and point dose_file at it.
+  dose_record: "20035157"
+  dose_file: DOSE_V2.14.csv
+  # World Bank WDI GDP deflator indicator. No API key required. Only used when
+  # use_dose_constant is false, or the source has no constant-price series.
+  wdi_deflator_indicator: "NY.GDP.DEFL.ZS"
+  # GADM files territory under international dispute using Z-prefixed ADM1 codes
+  # (Z01.14_1) while label sources use the claiming country's code (IND.14_1).
+  # When true, those are treated as the same administrative unit, tagged
+  # method=gid_disputed and flagged for human review rather than folded in
+  # silently. For India this is 22 Jammu and Kashmir districts plus slices of
+  # Arunachal Pradesh, Himachal Pradesh and Uttarakhand.
+  match_disputed_territory: true
+  # Prefer DOSE's own constant-price series over re-deflating nominal values with
+  # WDI. DOSE V2.14 ships grp_pc_lcu_2015 and deflator_2015, already based on
+  # 2015 which matches base_year, and it is the series the DOSE authors
+  # validated. Fewer moving parts and no network fetch. Set false for sources
+  # that publish nominal values only.
+  use_dose_constant: true
+  # Real year-on-year growth above this is treated as a units break, not growth.
+  max_real_yoy_growth: 0.5
+  # Phase 4 features. A region-year with fewer valid months than this is dropped
+  # rather than compared as if it were complete (monsoon and winter gaps).
+  min_valid_months: 6
+  # Baseline year for newly_lit. Pixels lit now but dark in this year count as
+  # newly electrified. Defaults to the series start.
+  baseline_year: 2014
+  # National GDP indicator (constant LCU) for the Phase 4 exit correlation.
+  wdi_gdp_indicator: "NY.GDP.MKTP.KN"
+
+  # Phase 5 modelling.
+  model:
+    # Target is log(gdp_constant). These are the tree-model inputs. Note what is
+    # NOT here: area_km2 and raw sol encode which district a row is, which leaks
+    # region identity into a spatial holdout (pitfalls.md). Only normalised and
+    # dynamic features are allowed in.
+    features:
+      - log_sol
+      - log_sol_per_area
+      - log_lit_pixels
+      - lit_share
+      - gini_light
+      - mean_rad
+      - median_rad
+      - p90_rad
+      - n_valid_months
+      - sol_yoy
+      - lit_pixels_yoy
+      - newly_lit
+      - sol_roll3
+      - lit_share_roll3
+      # GHSL population. Measured, not leaked: it lifts spatial holdout log R2
+      # from 0.545 to 0.686 and temporal from 0.677 to 0.790. Population is a
+      # genuine predictor of economic size, and it is also the denominator the
+      # per-capita headline needs.
+      - log_population
+      - log_sol_per_capita
+    # Plausible elasticity bands from the published literature (rule 14). Outside
+    # these, suspect the extraction before believing the model.
+    within_elasticity_band: [0.15, 0.6]
+    cross_elasticity_band: [0.6, 1.0]
+    # Shallow on purpose: a few hundred region-years memorise under a deep forest.
+    xgb:
+      max_depth: 4
+      n_estimators: 400
+      learning_rate: 0.05
+      subsample: 0.8
+      colsample_bytree: 0.8
+      min_child_weight: 5
+    n_spatial_splits: 5
+    min_train_years: 4
+    conformal_alpha: 0.1
+  # reduceRegions tile scale. Raise to 8 or 16 if exports fail with
+  # "computed value is too large"; it trades speed for memory headroom.
+  tile_scale: 4
+  # Batch exports land in this Google Drive folder
+  export_folder: gdp_proxy_exports
+  # Set after you upload the boundary snapshot as a GEE asset. Without it the
+  # extractor refuses to run on more than 200 polygons.
+  # Left null on purpose: the asset path embeds a Cloud project id, and CLAUDE.md
+  # keeps project ids in .env, not in a file committed to a public repo. Set
+  # GEE_BOUNDARY_ASSET in .env instead; it takes precedence over this.
+  boundary_asset: null
+
+india:
+  iso3: IND
+  admin_level: 2
+  boundary_source: gadm      # gadm | geoboundaries
+  boundary_version: "4.1"
+  start_year: 2014
+  end_year: 2025
+  # Validation targets for Phase 1. Leave null until your first run tells you the
+  # real number, then pin it so a silent source change breaks the build.
+  # Note: GADM India includes disputed territory, so its total area runs above the
+  # official land area of about 3,166,000 km2. geoBoundaries ADM2 (2021 LGD
+  # boundaries) reports 736 districts against GADM's smaller, older count. These
+  # two sources are NOT interchangeable mid-project.
+  expected_polygon_count: null
+  reference_land_area_km2: null
+  area_tolerance_pct: 1.0
+  # Why a label region has fewer years than the extraction window. A gap is not
+  # automatically a defect: a state that did not exist yet correctly has no
+  # figure, and inventing one would be fabrication. Anything not listed here is
+  # reported as an unexplained gap.
+  label_coverage_notes:
+    Telangana:
+      missing_years: [2014]
+      correct_by_history: true
+      reason: >-
+        Telangana was created on 2014-06-02 by the Andhra Pradesh Reorganisation
+        Act. DOSE correctly has no 2014 figure because the state did not exist
+        for most of that year. Do not backfill; a synthetic 2014 Telangana GSDP
+        would be fabricated data.
+    Kerala:
+      missing_years: [2014]
+      correct_by_history: false
+      reason: >-
+        Gap in the DOSE V2.14 series. Kerala existed throughout and a 2014 GSDP
+        is published by MOSPI, so this is missing source data rather than an
+        administrative fact. Fill from MOSPI if the ADM1 panel is extended.
+    Puducherry:
+      missing_years: [2015, 2016, 2017, 2018, 2019]
+      correct_by_history: false
+      reason: >-
+        The DOSE V2.14 series for Puducherry ends after 2014. The union
+        territory continues to exist and publish; this is a truncated source
+        series, not an administrative change.
+  # Official district renamings. GADM 4.1 carries the pre-rename name; state
+  # economic surveys use the current one, and the two are different words rather
+  # than spelling variants, so fuzzy scoring cannot bridge them. Hand-checked and
+  # committed, in the spirit of rule 7: the mapping is reviewed once, not guessed
+  # at runtime. Key is the published name, value the GADM name.
+  # NOTE: GADM names the urban district plain "Bangalore", not "Bangalore Urban".
+  # Mapping "Bengaluru Urban" to "Bangalore Urban" scores 87 against *Bangalore
+  # Rural*, which would silently compare Bengaluru's GDP to a different
+  # district's light. Exact aliases, never a lowered fuzzy threshold.
+  district_aliases:
+    Bengaluru Urban: Bangalore
+    Bengaluru Rural: Bangalore Rural
+    Gadchiroli: Garhchiroli
+    Yadagiri: Yadgir
+    Yadgir: Yadgir
+    Ballari: Bellary
+    Belagavi: Belgaum
+    Kalaburagi: Gulbarga
+    Mysuru: Mysore
+    Shivamogga: Shimoga
+    Tumakuru: Tumkur
+    Vijayapura: Bijapur
+    Chikkamagaluru: Chikmagalur
+    Chamarajanagara: Chamrajnagar
+    Chhatrapati Sambhajinagar: Aurangabad
+    Dharashiv: Osmanabad
+    Raigad: Raigarh
+  label_sources:
+    - dose            # ADM1 states, 1960-2020
+    - mospi_gsdp      # ADM1 states, recent years
+    - gddp_states     # ADM2 where published, validation only
+  deflator: world_bank_wdi
+  # Basins to hand-mask until the EOG flare licence comes through
+  manual_flare_regions:
+    - name: Mumbai High offshore
+      lon: 71.5
+      lat: 19.4
+      radius_km: 60
+    - name: Jamnagar refinery
+      lon: 69.9
+      lat: 22.3
+      radius_km: 25
+
+kenya:
+  iso3: KEN
+  admin_level: 1
+  boundary_source: geoboundaries
+  boundary_version: "latest"
+  start_year: 2014
+  end_year: 2025
+  expected_polygon_count: 47      # 47 counties under the 2010 constitution
+  reference_land_area_km2: 580367
+  area_tolerance_pct: 1.5
+  label_sources:
+    - dose
+    - knbs_county_grp
+  deflator: world_bank_wdi
+  manual_flare_regions: []

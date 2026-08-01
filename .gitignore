@@ -216,3 +216,29 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# gdp_proxy
+.env
+data/raw/
+data/interim/
+*.parquet.tmp
+.venv/
+
+# GADM licence: free for academic and non-commercial use, but redistribution is
+# not permitted without prior permission. Publishing these in a public repo IS
+# redistribution, so anything carrying GADM geometry or its district name/GID
+# table stays local. All of it regenerates:
+#   python -m gdp_proxy.boundaries        -> boundary snapshot
+#   python -m gdp_proxy.match --propose   -> crosswalk review file
+#   python -m gdp_proxy.evaluate          -> allocation validation
+# The processed parquets that remain are keyed only by the opaque synthetic
+# region_id and contain no GADM names, codes or geometry.
+data/processed/boundaries_*.parquet
+data/crosswalk_review.csv
+data/processed/allocation_validation.parquet
+
+# Regenerable build artefact, and pickle is a code-execution format: never a
+# thing to hand a stranger from a public repo. Rebuild with:
+#   python -m gdp_proxy.model
+data/processed/model.pkl
+*.pkl
